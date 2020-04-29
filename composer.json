@@ -1,6 +1,6 @@
 {
     "name": "adminrescue/sdfc-partner",
-    "description": "Package generated from D:\\inteliJWorkspace\\wsdl2php/partner.wsdl.xml using wsdltophp/packagegenerator",
+    "description": "Package generated from partner.wsdl.xml using wsdltophp/packagegenerator",
     "require": {
         "php": ">=5.3.3",
         "ext-soap": "*",
