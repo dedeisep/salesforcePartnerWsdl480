@@ -1,0 +1,15 @@
+{
+    "name": "adminrescue/sdfc-partner",
+    "description": "Package generated from D:\\inteliJWorkspace\\wsdl2php/partner.wsdl.xml using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SFPartnerApi\\v480\\": "./src\\"
+        }
+    }
+}

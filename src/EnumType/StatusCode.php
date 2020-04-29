@@ -1,0 +1,2677 @@
+<?php
+
+namespace SFPartnerApi\v480\EnumType;
+
+/**
+ * This class stands for StatusCode EnumType
+ * @subpackage Enumerations
+ */
+class StatusCode
+{
+    /**
+     * Constant for value 'ALL_OR_NONE_OPERATION_ROLLED_BACK'
+     * @return string 'ALL_OR_NONE_OPERATION_ROLLED_BACK'
+     */
+    const VALUE_ALL_OR_NONE_OPERATION_ROLLED_BACK = 'ALL_OR_NONE_OPERATION_ROLLED_BACK';
+    /**
+     * Constant for value 'ALREADY_IN_PROCESS'
+     * @return string 'ALREADY_IN_PROCESS'
+     */
+    const VALUE_ALREADY_IN_PROCESS = 'ALREADY_IN_PROCESS';
+    /**
+     * Constant for value 'APEX_DATA_ACCESS_RESTRICTION'
+     * @return string 'APEX_DATA_ACCESS_RESTRICTION'
+     */
+    const VALUE_APEX_DATA_ACCESS_RESTRICTION = 'APEX_DATA_ACCESS_RESTRICTION';
+    /**
+     * Constant for value 'ASSIGNEE_TYPE_REQUIRED'
+     * @return string 'ASSIGNEE_TYPE_REQUIRED'
+     */
+    const VALUE_ASSIGNEE_TYPE_REQUIRED = 'ASSIGNEE_TYPE_REQUIRED';
+    /**
+     * Constant for value 'AURA_COMPILE_ERROR'
+     * @return string 'AURA_COMPILE_ERROR'
+     */
+    const VALUE_AURA_COMPILE_ERROR = 'AURA_COMPILE_ERROR';
+    /**
+     * Constant for value 'AUTH_PROVIDER_NEEDS_AUTH'
+     * @return string 'AUTH_PROVIDER_NEEDS_AUTH'
+     */
+    const VALUE_AUTH_PROVIDER_NEEDS_AUTH = 'AUTH_PROVIDER_NEEDS_AUTH';
+    /**
+     * Constant for value 'AUTH_PROVIDER_NOT_FOUND'
+     * @return string 'AUTH_PROVIDER_NOT_FOUND'
+     */
+    const VALUE_AUTH_PROVIDER_NOT_FOUND = 'AUTH_PROVIDER_NOT_FOUND';
+    /**
+     * Constant for value 'BAD_CUSTOM_ENTITY_PARENT_DOMAIN'
+     * @return string 'BAD_CUSTOM_ENTITY_PARENT_DOMAIN'
+     */
+    const VALUE_BAD_CUSTOM_ENTITY_PARENT_DOMAIN = 'BAD_CUSTOM_ENTITY_PARENT_DOMAIN';
+    /**
+     * Constant for value 'BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED'
+     * @return string 'BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED'
+     */
+    const VALUE_BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED = 'BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED';
+    /**
+     * Constant for value 'CANNOT_CASCADE_PRODUCT_ACTIVE'
+     * @return string 'CANNOT_CASCADE_PRODUCT_ACTIVE'
+     */
+    const VALUE_CANNOT_CASCADE_PRODUCT_ACTIVE = 'CANNOT_CASCADE_PRODUCT_ACTIVE';
+    /**
+     * Constant for value 'CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD'
+     * @return string 'CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD'
+     */
+    const VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD = 'CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD';
+    /**
+     * Constant for value 'CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD'
+     * @return string 'CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD'
+     */
+    const VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD = 'CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD';
+    /**
+     * Constant for value 'CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE'
+     * @return string 'CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE'
+     */
+    const VALUE_CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE = 'CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE';
+    /**
+     * Constant for value 'CANNOT_DEACTIVATE_DIVISION'
+     * @return string 'CANNOT_DEACTIVATE_DIVISION'
+     */
+    const VALUE_CANNOT_DEACTIVATE_DIVISION = 'CANNOT_DEACTIVATE_DIVISION';
+    /**
+     * Constant for value 'CANNOT_DELETE_GLOBAL_ACTION_LIST'
+     * @return string 'CANNOT_DELETE_GLOBAL_ACTION_LIST'
+     */
+    const VALUE_CANNOT_DELETE_GLOBAL_ACTION_LIST = 'CANNOT_DELETE_GLOBAL_ACTION_LIST';
+    /**
+     * Constant for value 'CANNOT_DELETE_LAST_DATED_CONVERSION_RATE'
+     * @return string 'CANNOT_DELETE_LAST_DATED_CONVERSION_RATE'
+     */
+    const VALUE_CANNOT_DELETE_LAST_DATED_CONVERSION_RATE = 'CANNOT_DELETE_LAST_DATED_CONVERSION_RATE';
+    /**
+     * Constant for value 'CANNOT_DELETE_MANAGED_OBJECT'
+     * @return string 'CANNOT_DELETE_MANAGED_OBJECT'
+     */
+    const VALUE_CANNOT_DELETE_MANAGED_OBJECT = 'CANNOT_DELETE_MANAGED_OBJECT';
+    /**
+     * Constant for value 'CANNOT_DISABLE_LAST_ADMIN'
+     * @return string 'CANNOT_DISABLE_LAST_ADMIN'
+     */
+    const VALUE_CANNOT_DISABLE_LAST_ADMIN = 'CANNOT_DISABLE_LAST_ADMIN';
+    /**
+     * Constant for value 'CANNOT_ENABLE_IP_RESTRICT_REQUESTS'
+     * @return string 'CANNOT_ENABLE_IP_RESTRICT_REQUESTS'
+     */
+    const VALUE_CANNOT_ENABLE_IP_RESTRICT_REQUESTS = 'CANNOT_ENABLE_IP_RESTRICT_REQUESTS';
+    /**
+     * Constant for value 'CANNOT_EXECUTE_FLOW_TRIGGER'
+     * @return string 'CANNOT_EXECUTE_FLOW_TRIGGER'
+     */
+    const VALUE_CANNOT_EXECUTE_FLOW_TRIGGER = 'CANNOT_EXECUTE_FLOW_TRIGGER';
+    /**
+     * Constant for value 'CANNOT_FREEZE_SELF'
+     * @return string 'CANNOT_FREEZE_SELF'
+     */
+    const VALUE_CANNOT_FREEZE_SELF = 'CANNOT_FREEZE_SELF';
+    /**
+     * Constant for value 'CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY'
+     * @return string 'CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY'
+     */
+    const VALUE_CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY = 'CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY';
+    /**
+     * Constant for value 'CANNOT_MODIFY_MANAGED_OBJECT'
+     * @return string 'CANNOT_MODIFY_MANAGED_OBJECT'
+     */
+    const VALUE_CANNOT_MODIFY_MANAGED_OBJECT = 'CANNOT_MODIFY_MANAGED_OBJECT';
+    /**
+     * Constant for value 'CANNOT_PASSWORD_LOCKOUT'
+     * @return string 'CANNOT_PASSWORD_LOCKOUT'
+     */
+    const VALUE_CANNOT_PASSWORD_LOCKOUT = 'CANNOT_PASSWORD_LOCKOUT';
+    /**
+     * Constant for value 'CANNOT_POST_TO_ARCHIVED_GROUP'
+     * @return string 'CANNOT_POST_TO_ARCHIVED_GROUP'
+     */
+    const VALUE_CANNOT_POST_TO_ARCHIVED_GROUP = 'CANNOT_POST_TO_ARCHIVED_GROUP';
+    /**
+     * Constant for value 'CANNOT_RENAME_APEX_REFERENCED_FIELD'
+     * @return string 'CANNOT_RENAME_APEX_REFERENCED_FIELD'
+     */
+    const VALUE_CANNOT_RENAME_APEX_REFERENCED_FIELD = 'CANNOT_RENAME_APEX_REFERENCED_FIELD';
+    /**
+     * Constant for value 'CANNOT_RENAME_APEX_REFERENCED_OBJECT'
+     * @return string 'CANNOT_RENAME_APEX_REFERENCED_OBJECT'
+     */
+    const VALUE_CANNOT_RENAME_APEX_REFERENCED_OBJECT = 'CANNOT_RENAME_APEX_REFERENCED_OBJECT';
+    /**
+     * Constant for value 'CANNOT_RENAME_REFERENCED_FIELD'
+     * @return string 'CANNOT_RENAME_REFERENCED_FIELD'
+     */
+    const VALUE_CANNOT_RENAME_REFERENCED_FIELD = 'CANNOT_RENAME_REFERENCED_FIELD';
+    /**
+     * Constant for value 'CANNOT_RENAME_REFERENCED_OBJECT'
+     * @return string 'CANNOT_RENAME_REFERENCED_OBJECT'
+     */
+    const VALUE_CANNOT_RENAME_REFERENCED_OBJECT = 'CANNOT_RENAME_REFERENCED_OBJECT';
+    /**
+     * Constant for value 'CANNOT_REPARENT_RECORD'
+     * @return string 'CANNOT_REPARENT_RECORD'
+     */
+    const VALUE_CANNOT_REPARENT_RECORD = 'CANNOT_REPARENT_RECORD';
+    /**
+     * Constant for value 'CANNOT_UPDATE_CONVERTED_LEAD'
+     * @return string 'CANNOT_UPDATE_CONVERTED_LEAD'
+     */
+    const VALUE_CANNOT_UPDATE_CONVERTED_LEAD = 'CANNOT_UPDATE_CONVERTED_LEAD';
+    /**
+     * Constant for value 'CANT_DISABLE_CORP_CURRENCY'
+     * @return string 'CANT_DISABLE_CORP_CURRENCY'
+     */
+    const VALUE_CANT_DISABLE_CORP_CURRENCY = 'CANT_DISABLE_CORP_CURRENCY';
+    /**
+     * Constant for value 'CANT_UNSET_CORP_CURRENCY'
+     * @return string 'CANT_UNSET_CORP_CURRENCY'
+     */
+    const VALUE_CANT_UNSET_CORP_CURRENCY = 'CANT_UNSET_CORP_CURRENCY';
+    /**
+     * Constant for value 'CHILD_SHARE_FAILS_PARENT'
+     * @return string 'CHILD_SHARE_FAILS_PARENT'
+     */
+    const VALUE_CHILD_SHARE_FAILS_PARENT = 'CHILD_SHARE_FAILS_PARENT';
+    /**
+     * Constant for value 'CIRCULAR_DEPENDENCY'
+     * @return string 'CIRCULAR_DEPENDENCY'
+     */
+    const VALUE_CIRCULAR_DEPENDENCY = 'CIRCULAR_DEPENDENCY';
+    /**
+     * Constant for value 'CLEAN_SERVICE_ERROR'
+     * @return string 'CLEAN_SERVICE_ERROR'
+     */
+    const VALUE_CLEAN_SERVICE_ERROR = 'CLEAN_SERVICE_ERROR';
+    /**
+     * Constant for value 'CLONE_FIELD_INTEGRITY_EXCEPTION'
+     * @return string 'CLONE_FIELD_INTEGRITY_EXCEPTION'
+     */
+    const VALUE_CLONE_FIELD_INTEGRITY_EXCEPTION = 'CLONE_FIELD_INTEGRITY_EXCEPTION';
+    /**
+     * Constant for value 'CLONE_NOT_SUPPORTED'
+     * @return string 'CLONE_NOT_SUPPORTED'
+     */
+    const VALUE_CLONE_NOT_SUPPORTED = 'CLONE_NOT_SUPPORTED';
+    /**
+     * Constant for value 'COLLISION_DETECTED'
+     * @return string 'COLLISION_DETECTED'
+     */
+    const VALUE_COLLISION_DETECTED = 'COLLISION_DETECTED';
+    /**
+     * Constant for value 'COMMERCIAL_CONTROL_ERROR'
+     * @return string 'COMMERCIAL_CONTROL_ERROR'
+     */
+    const VALUE_COMMERCIAL_CONTROL_ERROR = 'COMMERCIAL_CONTROL_ERROR';
+    /**
+     * Constant for value 'COMMUNITY_NOT_ACCESSIBLE'
+     * @return string 'COMMUNITY_NOT_ACCESSIBLE'
+     */
+    const VALUE_COMMUNITY_NOT_ACCESSIBLE = 'COMMUNITY_NOT_ACCESSIBLE';
+    /**
+     * Constant for value 'CONFLICTING_ENVIRONMENT_HUB_MEMBER'
+     * @return string 'CONFLICTING_ENVIRONMENT_HUB_MEMBER'
+     */
+    const VALUE_CONFLICTING_ENVIRONMENT_HUB_MEMBER = 'CONFLICTING_ENVIRONMENT_HUB_MEMBER';
+    /**
+     * Constant for value 'CONFLICTING_SSO_USER_MAPPING'
+     * @return string 'CONFLICTING_SSO_USER_MAPPING'
+     */
+    const VALUE_CONFLICTING_SSO_USER_MAPPING = 'CONFLICTING_SSO_USER_MAPPING';
+    /**
+     * Constant for value 'CONTENT_TYPE_NOT_FOUND'
+     * @return string 'CONTENT_TYPE_NOT_FOUND'
+     */
+    const VALUE_CONTENT_TYPE_NOT_FOUND = 'CONTENT_TYPE_NOT_FOUND';
+    /**
+     * Constant for value 'CUSTOM_APEX_ERROR'
+     * @return string 'CUSTOM_APEX_ERROR'
+     */
+    const VALUE_CUSTOM_APEX_ERROR = 'CUSTOM_APEX_ERROR';
+    /**
+     * Constant for value 'CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED = 'CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'CUSTOM_ENTITY_OR_FIELD_LIMIT'
+     * @return string 'CUSTOM_ENTITY_OR_FIELD_LIMIT'
+     */
+    const VALUE_CUSTOM_ENTITY_OR_FIELD_LIMIT = 'CUSTOM_ENTITY_OR_FIELD_LIMIT';
+    /**
+     * Constant for value 'CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED = 'CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'CUSTOM_INDEX_EXISTS'
+     * @return string 'CUSTOM_INDEX_EXISTS'
+     */
+    const VALUE_CUSTOM_INDEX_EXISTS = 'CUSTOM_INDEX_EXISTS';
+    /**
+     * Constant for value 'CUSTOM_LINK_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_LINK_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_LINK_LIMIT_EXCEEDED = 'CUSTOM_LINK_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'CUSTOM_METADATA_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_METADATA_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_METADATA_LIMIT_EXCEEDED = 'CUSTOM_METADATA_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'CUSTOM_METADATA_REL_FIELD_MANAGEABILITY'
+     * @return string 'CUSTOM_METADATA_REL_FIELD_MANAGEABILITY'
+     */
+    const VALUE_CUSTOM_METADATA_REL_FIELD_MANAGEABILITY = 'CUSTOM_METADATA_REL_FIELD_MANAGEABILITY';
+    /**
+     * Constant for value 'CUSTOM_SETTINGS_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_SETTINGS_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_SETTINGS_LIMIT_EXCEEDED = 'CUSTOM_SETTINGS_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'CUSTOM_TAB_LIMIT_EXCEEDED'
+     * @return string 'CUSTOM_TAB_LIMIT_EXCEEDED'
+     */
+    const VALUE_CUSTOM_TAB_LIMIT_EXCEEDED = 'CUSTOM_TAB_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR'
+     * @return string 'DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR'
+     */
+    const VALUE_DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR = 'DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR';
+    /**
+     * Constant for value 'DATAASSESSMENT_CONFIG_SERVICE_ERROR'
+     * @return string 'DATAASSESSMENT_CONFIG_SERVICE_ERROR'
+     */
+    const VALUE_DATAASSESSMENT_CONFIG_SERVICE_ERROR = 'DATAASSESSMENT_CONFIG_SERVICE_ERROR';
+    /**
+     * Constant for value 'DATACLOUDADDRESS_NO_RECORDS_FOUND'
+     * @return string 'DATACLOUDADDRESS_NO_RECORDS_FOUND'
+     */
+    const VALUE_DATACLOUDADDRESS_NO_RECORDS_FOUND = 'DATACLOUDADDRESS_NO_RECORDS_FOUND';
+    /**
+     * Constant for value 'DATACLOUDADDRESS_PROCESSING_ERROR'
+     * @return string 'DATACLOUDADDRESS_PROCESSING_ERROR'
+     */
+    const VALUE_DATACLOUDADDRESS_PROCESSING_ERROR = 'DATACLOUDADDRESS_PROCESSING_ERROR';
+    /**
+     * Constant for value 'DATACLOUDADDRESS_SERVER_ERROR'
+     * @return string 'DATACLOUDADDRESS_SERVER_ERROR'
+     */
+    const VALUE_DATACLOUDADDRESS_SERVER_ERROR = 'DATACLOUDADDRESS_SERVER_ERROR';
+    /**
+     * Constant for value 'DELETE_FAILED'
+     * @return string 'DELETE_FAILED'
+     */
+    const VALUE_DELETE_FAILED = 'DELETE_FAILED';
+    /**
+     * Constant for value 'DELETE_NOT_ALLOWED'
+     * @return string 'DELETE_NOT_ALLOWED'
+     */
+    const VALUE_DELETE_NOT_ALLOWED = 'DELETE_NOT_ALLOWED';
+    /**
+     * Constant for value 'DELETE_OPERATION_TOO_LARGE'
+     * @return string 'DELETE_OPERATION_TOO_LARGE'
+     */
+    const VALUE_DELETE_OPERATION_TOO_LARGE = 'DELETE_OPERATION_TOO_LARGE';
+    /**
+     * Constant for value 'DELETE_REQUIRED_ON_CASCADE'
+     * @return string 'DELETE_REQUIRED_ON_CASCADE'
+     */
+    const VALUE_DELETE_REQUIRED_ON_CASCADE = 'DELETE_REQUIRED_ON_CASCADE';
+    /**
+     * Constant for value 'DEPENDENCY_EXISTS'
+     * @return string 'DEPENDENCY_EXISTS'
+     */
+    const VALUE_DEPENDENCY_EXISTS = 'DEPENDENCY_EXISTS';
+    /**
+     * Constant for value 'DUPLICATES_DETECTED'
+     * @return string 'DUPLICATES_DETECTED'
+     */
+    const VALUE_DUPLICATES_DETECTED = 'DUPLICATES_DETECTED';
+    /**
+     * Constant for value 'DUPLICATE_CASE_SOLUTION'
+     * @return string 'DUPLICATE_CASE_SOLUTION'
+     */
+    const VALUE_DUPLICATE_CASE_SOLUTION = 'DUPLICATE_CASE_SOLUTION';
+    /**
+     * Constant for value 'DUPLICATE_COMM_NICKNAME'
+     * @return string 'DUPLICATE_COMM_NICKNAME'
+     */
+    const VALUE_DUPLICATE_COMM_NICKNAME = 'DUPLICATE_COMM_NICKNAME';
+    /**
+     * Constant for value 'DUPLICATE_CUSTOM_ENTITY_DEFINITION'
+     * @return string 'DUPLICATE_CUSTOM_ENTITY_DEFINITION'
+     */
+    const VALUE_DUPLICATE_CUSTOM_ENTITY_DEFINITION = 'DUPLICATE_CUSTOM_ENTITY_DEFINITION';
+    /**
+     * Constant for value 'DUPLICATE_CUSTOM_TAB_MOTIF'
+     * @return string 'DUPLICATE_CUSTOM_TAB_MOTIF'
+     */
+    const VALUE_DUPLICATE_CUSTOM_TAB_MOTIF = 'DUPLICATE_CUSTOM_TAB_MOTIF';
+    /**
+     * Constant for value 'DUPLICATE_DEVELOPER_NAME'
+     * @return string 'DUPLICATE_DEVELOPER_NAME'
+     */
+    const VALUE_DUPLICATE_DEVELOPER_NAME = 'DUPLICATE_DEVELOPER_NAME';
+    /**
+     * Constant for value 'DUPLICATE_EXTERNAL_ID'
+     * @return string 'DUPLICATE_EXTERNAL_ID'
+     */
+    const VALUE_DUPLICATE_EXTERNAL_ID = 'DUPLICATE_EXTERNAL_ID';
+    /**
+     * Constant for value 'DUPLICATE_MASTER_LABEL'
+     * @return string 'DUPLICATE_MASTER_LABEL'
+     */
+    const VALUE_DUPLICATE_MASTER_LABEL = 'DUPLICATE_MASTER_LABEL';
+    /**
+     * Constant for value 'DUPLICATE_SENDER_DISPLAY_NAME'
+     * @return string 'DUPLICATE_SENDER_DISPLAY_NAME'
+     */
+    const VALUE_DUPLICATE_SENDER_DISPLAY_NAME = 'DUPLICATE_SENDER_DISPLAY_NAME';
+    /**
+     * Constant for value 'DUPLICATE_USERNAME'
+     * @return string 'DUPLICATE_USERNAME'
+     */
+    const VALUE_DUPLICATE_USERNAME = 'DUPLICATE_USERNAME';
+    /**
+     * Constant for value 'DUPLICATE_VALUE'
+     * @return string 'DUPLICATE_VALUE'
+     */
+    const VALUE_DUPLICATE_VALUE = 'DUPLICATE_VALUE';
+    /**
+     * Constant for value 'EMAIL_ADDRESS_BOUNCED'
+     * @return string 'EMAIL_ADDRESS_BOUNCED'
+     */
+    const VALUE_EMAIL_ADDRESS_BOUNCED = 'EMAIL_ADDRESS_BOUNCED';
+    /**
+     * Constant for value 'EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR'
+     * @return string 'EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR'
+     */
+    const VALUE_EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR = 'EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR';
+    /**
+     * Constant for value 'EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR'
+     * @return string 'EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR'
+     */
+    const VALUE_EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR = 'EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR';
+    /**
+     * Constant for value 'EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR'
+     * @return string 'EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR'
+     */
+    const VALUE_EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR = 'EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR';
+    /**
+     * Constant for value 'EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR'
+     * @return string 'EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR'
+     */
+    const VALUE_EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR = 'EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR';
+    /**
+     * Constant for value 'EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR'
+     * @return string 'EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR'
+     */
+    const VALUE_EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR = 'EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR';
+    /**
+     * Constant for value 'EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR'
+     * @return string 'EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR'
+     */
+    const VALUE_EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR = 'EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR';
+    /**
+     * Constant for value 'EMAIL_OPTED_OUT'
+     * @return string 'EMAIL_OPTED_OUT'
+     */
+    const VALUE_EMAIL_OPTED_OUT = 'EMAIL_OPTED_OUT';
+    /**
+     * Constant for value 'EMAIL_TEMPLATE_FORMULA_ERROR'
+     * @return string 'EMAIL_TEMPLATE_FORMULA_ERROR'
+     */
+    const VALUE_EMAIL_TEMPLATE_FORMULA_ERROR = 'EMAIL_TEMPLATE_FORMULA_ERROR';
+    /**
+     * Constant for value 'EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR'
+     * @return string 'EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR'
+     */
+    const VALUE_EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR = 'EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR';
+    /**
+     * Constant for value 'EMAIL_TEMPLATE_MERGEFIELD_ERROR'
+     * @return string 'EMAIL_TEMPLATE_MERGEFIELD_ERROR'
+     */
+    const VALUE_EMAIL_TEMPLATE_MERGEFIELD_ERROR = 'EMAIL_TEMPLATE_MERGEFIELD_ERROR';
+    /**
+     * Constant for value 'EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR'
+     * @return string 'EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR'
+     */
+    const VALUE_EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR = 'EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR';
+    /**
+     * Constant for value 'EMAIL_TEMPLATE_PROCESSING_ERROR'
+     * @return string 'EMAIL_TEMPLATE_PROCESSING_ERROR'
+     */
+    const VALUE_EMAIL_TEMPLATE_PROCESSING_ERROR = 'EMAIL_TEMPLATE_PROCESSING_ERROR';
+    /**
+     * Constant for value 'EMPTY_SCONTROL_FILE_NAME'
+     * @return string 'EMPTY_SCONTROL_FILE_NAME'
+     */
+    const VALUE_EMPTY_SCONTROL_FILE_NAME = 'EMPTY_SCONTROL_FILE_NAME';
+    /**
+     * Constant for value 'ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR'
+     * @return string 'ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR'
+     */
+    const VALUE_ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR = 'ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR';
+    /**
+     * Constant for value 'ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE'
+     * @return string 'ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE'
+     */
+    const VALUE_ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE = 'ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE';
+    /**
+     * Constant for value 'ENTITY_IS_ARCHIVED'
+     * @return string 'ENTITY_IS_ARCHIVED'
+     */
+    const VALUE_ENTITY_IS_ARCHIVED = 'ENTITY_IS_ARCHIVED';
+    /**
+     * Constant for value 'ENTITY_IS_DELETED'
+     * @return string 'ENTITY_IS_DELETED'
+     */
+    const VALUE_ENTITY_IS_DELETED = 'ENTITY_IS_DELETED';
+    /**
+     * Constant for value 'ENTITY_IS_LOCKED'
+     * @return string 'ENTITY_IS_LOCKED'
+     */
+    const VALUE_ENTITY_IS_LOCKED = 'ENTITY_IS_LOCKED';
+    /**
+     * Constant for value 'ENTITY_SAVE_ERROR'
+     * @return string 'ENTITY_SAVE_ERROR'
+     */
+    const VALUE_ENTITY_SAVE_ERROR = 'ENTITY_SAVE_ERROR';
+    /**
+     * Constant for value 'ENTITY_SAVE_VALIDATION_ERROR'
+     * @return string 'ENTITY_SAVE_VALIDATION_ERROR'
+     */
+    const VALUE_ENTITY_SAVE_VALIDATION_ERROR = 'ENTITY_SAVE_VALIDATION_ERROR';
+    /**
+     * Constant for value 'ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT'
+     * @return string 'ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT'
+     */
+    const VALUE_ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT = 'ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT';
+    /**
+     * Constant for value 'ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB'
+     * @return string 'ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB'
+     */
+    const VALUE_ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB = 'ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB';
+    /**
+     * Constant for value 'ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB'
+     * @return string 'ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB'
+     */
+    const VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB = 'ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB';
+    /**
+     * Constant for value 'ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN'
+     * @return string 'ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN'
+     */
+    const VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN = 'ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN';
+    /**
+     * Constant for value 'ERROR_IN_MAILER'
+     * @return string 'ERROR_IN_MAILER'
+     */
+    const VALUE_ERROR_IN_MAILER = 'ERROR_IN_MAILER';
+    /**
+     * Constant for value 'EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE'
+     * @return string 'EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE'
+     */
+    const VALUE_EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE = 'EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE';
+    /**
+     * Constant for value 'EXCHANGE_WEB_SERVICES_URL_INVALID'
+     * @return string 'EXCHANGE_WEB_SERVICES_URL_INVALID'
+     */
+    const VALUE_EXCHANGE_WEB_SERVICES_URL_INVALID = 'EXCHANGE_WEB_SERVICES_URL_INVALID';
+    /**
+     * Constant for value 'EXTERNAL_RESOURCE_FORBIDDEN'
+     * @return string 'EXTERNAL_RESOURCE_FORBIDDEN'
+     */
+    const VALUE_EXTERNAL_RESOURCE_FORBIDDEN = 'EXTERNAL_RESOURCE_FORBIDDEN';
+    /**
+     * Constant for value 'FAILED_ACTIVATION'
+     * @return string 'FAILED_ACTIVATION'
+     */
+    const VALUE_FAILED_ACTIVATION = 'FAILED_ACTIVATION';
+    /**
+     * Constant for value 'FIELD_CUSTOM_VALIDATION_EXCEPTION'
+     * @return string 'FIELD_CUSTOM_VALIDATION_EXCEPTION'
+     */
+    const VALUE_FIELD_CUSTOM_VALIDATION_EXCEPTION = 'FIELD_CUSTOM_VALIDATION_EXCEPTION';
+    /**
+     * Constant for value 'FIELD_FILTER_VALIDATION_EXCEPTION'
+     * @return string 'FIELD_FILTER_VALIDATION_EXCEPTION'
+     */
+    const VALUE_FIELD_FILTER_VALIDATION_EXCEPTION = 'FIELD_FILTER_VALIDATION_EXCEPTION';
+    /**
+     * Constant for value 'FIELD_INTEGRITY_EXCEPTION'
+     * @return string 'FIELD_INTEGRITY_EXCEPTION'
+     */
+    const VALUE_FIELD_INTEGRITY_EXCEPTION = 'FIELD_INTEGRITY_EXCEPTION';
+    /**
+     * Constant for value 'FIELD_KEYWORD_LIST_MATCH_LIMIT'
+     * @return string 'FIELD_KEYWORD_LIST_MATCH_LIMIT'
+     */
+    const VALUE_FIELD_KEYWORD_LIST_MATCH_LIMIT = 'FIELD_KEYWORD_LIST_MATCH_LIMIT';
+    /**
+     * Constant for value 'FIELD_MAPPING_ERROR'
+     * @return string 'FIELD_MAPPING_ERROR'
+     */
+    const VALUE_FIELD_MAPPING_ERROR = 'FIELD_MAPPING_ERROR';
+    /**
+     * Constant for value 'FIELD_MODERATION_RULE_BLOCK'
+     * @return string 'FIELD_MODERATION_RULE_BLOCK'
+     */
+    const VALUE_FIELD_MODERATION_RULE_BLOCK = 'FIELD_MODERATION_RULE_BLOCK';
+    /**
+     * Constant for value 'FIELD_NOT_UPDATABLE'
+     * @return string 'FIELD_NOT_UPDATABLE'
+     */
+    const VALUE_FIELD_NOT_UPDATABLE = 'FIELD_NOT_UPDATABLE';
+    /**
+     * Constant for value 'FILE_EXTENSION_NOT_ALLOWED'
+     * @return string 'FILE_EXTENSION_NOT_ALLOWED'
+     */
+    const VALUE_FILE_EXTENSION_NOT_ALLOWED = 'FILE_EXTENSION_NOT_ALLOWED';
+    /**
+     * Constant for value 'FILE_SIZE_LIMIT_EXCEEDED'
+     * @return string 'FILE_SIZE_LIMIT_EXCEEDED'
+     */
+    const VALUE_FILE_SIZE_LIMIT_EXCEEDED = 'FILE_SIZE_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'FILTERED_LOOKUP_LIMIT_EXCEEDED'
+     * @return string 'FILTERED_LOOKUP_LIMIT_EXCEEDED'
+     */
+    const VALUE_FILTERED_LOOKUP_LIMIT_EXCEEDED = 'FILTERED_LOOKUP_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'FIND_DUPLICATES_ERROR'
+     * @return string 'FIND_DUPLICATES_ERROR'
+     */
+    const VALUE_FIND_DUPLICATES_ERROR = 'FIND_DUPLICATES_ERROR';
+    /**
+     * Constant for value 'FLOW_EXCEPTION'
+     * @return string 'FLOW_EXCEPTION'
+     */
+    const VALUE_FLOW_EXCEPTION = 'FLOW_EXCEPTION';
+    /**
+     * Constant for value 'FUNCTIONALITY_NOT_ENABLED'
+     * @return string 'FUNCTIONALITY_NOT_ENABLED'
+     */
+    const VALUE_FUNCTIONALITY_NOT_ENABLED = 'FUNCTIONALITY_NOT_ENABLED';
+    /**
+     * Constant for value 'HAS_PUBLIC_REFERENCES'
+     * @return string 'HAS_PUBLIC_REFERENCES'
+     */
+    const VALUE_HAS_PUBLIC_REFERENCES = 'HAS_PUBLIC_REFERENCES';
+    /**
+     * Constant for value 'HTML_FILE_UPLOAD_NOT_ALLOWED'
+     * @return string 'HTML_FILE_UPLOAD_NOT_ALLOWED'
+     */
+    const VALUE_HTML_FILE_UPLOAD_NOT_ALLOWED = 'HTML_FILE_UPLOAD_NOT_ALLOWED';
+    /**
+     * Constant for value 'IMAGE_TOO_LARGE'
+     * @return string 'IMAGE_TOO_LARGE'
+     */
+    const VALUE_IMAGE_TOO_LARGE = 'IMAGE_TOO_LARGE';
+    /**
+     * Constant for value 'INACTIVE_OWNER_OR_USER'
+     * @return string 'INACTIVE_OWNER_OR_USER'
+     */
+    const VALUE_INACTIVE_OWNER_OR_USER = 'INACTIVE_OWNER_OR_USER';
+    /**
+     * Constant for value 'INACTIVE_RULE_ERROR'
+     * @return string 'INACTIVE_RULE_ERROR'
+     */
+    const VALUE_INACTIVE_RULE_ERROR = 'INACTIVE_RULE_ERROR';
+    /**
+     * Constant for value 'INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE'
+     * @return string 'INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE'
+     */
+    const VALUE_INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE = 'INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE';
+    /**
+     * Constant for value 'INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY'
+     * @return string 'INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY'
+     */
+    const VALUE_INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY = 'INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY';
+    /**
+     * Constant for value 'INSUFFICIENT_ACCESS_OR_READONLY'
+     * @return string 'INSUFFICIENT_ACCESS_OR_READONLY'
+     */
+    const VALUE_INSUFFICIENT_ACCESS_OR_READONLY = 'INSUFFICIENT_ACCESS_OR_READONLY';
+    /**
+     * Constant for value 'INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA'
+     * @return string 'INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA'
+     */
+    const VALUE_INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA = 'INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA';
+    /**
+     * Constant for value 'INSUFFICIENT_CREDITS'
+     * @return string 'INSUFFICIENT_CREDITS'
+     */
+    const VALUE_INSUFFICIENT_CREDITS = 'INSUFFICIENT_CREDITS';
+    /**
+     * Constant for value 'INTERNAL_ERROR'
+     * @return string 'INTERNAL_ERROR'
+     */
+    const VALUE_INTERNAL_ERROR = 'INTERNAL_ERROR';
+    /**
+     * Constant for value 'INVALID_ACCESS_LEVEL'
+     * @return string 'INVALID_ACCESS_LEVEL'
+     */
+    const VALUE_INVALID_ACCESS_LEVEL = 'INVALID_ACCESS_LEVEL';
+    /**
+     * Constant for value 'INVALID_ACCESS_TOKEN'
+     * @return string 'INVALID_ACCESS_TOKEN'
+     */
+    const VALUE_INVALID_ACCESS_TOKEN = 'INVALID_ACCESS_TOKEN';
+    /**
+     * Constant for value 'INVALID_API_INPUT'
+     * @return string 'INVALID_API_INPUT'
+     */
+    const VALUE_INVALID_API_INPUT = 'INVALID_API_INPUT';
+    /**
+     * Constant for value 'INVALID_ARGUMENT_TYPE'
+     * @return string 'INVALID_ARGUMENT_TYPE'
+     */
+    const VALUE_INVALID_ARGUMENT_TYPE = 'INVALID_ARGUMENT_TYPE';
+    /**
+     * Constant for value 'INVALID_ASSIGNEE_TYPE'
+     * @return string 'INVALID_ASSIGNEE_TYPE'
+     */
+    const VALUE_INVALID_ASSIGNEE_TYPE = 'INVALID_ASSIGNEE_TYPE';
+    /**
+     * Constant for value 'INVALID_ASSIGNMENT_RULE'
+     * @return string 'INVALID_ASSIGNMENT_RULE'
+     */
+    const VALUE_INVALID_ASSIGNMENT_RULE = 'INVALID_ASSIGNMENT_RULE';
+    /**
+     * Constant for value 'INVALID_AUTH_HEADER'
+     * @return string 'INVALID_AUTH_HEADER'
+     */
+    const VALUE_INVALID_AUTH_HEADER = 'INVALID_AUTH_HEADER';
+    /**
+     * Constant for value 'INVALID_BATCH_OPERATION'
+     * @return string 'INVALID_BATCH_OPERATION'
+     */
+    const VALUE_INVALID_BATCH_OPERATION = 'INVALID_BATCH_OPERATION';
+    /**
+     * Constant for value 'INVALID_CONTENT_TYPE'
+     * @return string 'INVALID_CONTENT_TYPE'
+     */
+    const VALUE_INVALID_CONTENT_TYPE = 'INVALID_CONTENT_TYPE';
+    /**
+     * Constant for value 'INVALID_CREDIT_CARD_INFO'
+     * @return string 'INVALID_CREDIT_CARD_INFO'
+     */
+    const VALUE_INVALID_CREDIT_CARD_INFO = 'INVALID_CREDIT_CARD_INFO';
+    /**
+     * Constant for value 'INVALID_CROSS_REFERENCE_KEY'
+     * @return string 'INVALID_CROSS_REFERENCE_KEY'
+     */
+    const VALUE_INVALID_CROSS_REFERENCE_KEY = 'INVALID_CROSS_REFERENCE_KEY';
+    /**
+     * Constant for value 'INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD'
+     * @return string 'INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD'
+     */
+    const VALUE_INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD = 'INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD';
+    /**
+     * Constant for value 'INVALID_CURRENCY_CONV_RATE'
+     * @return string 'INVALID_CURRENCY_CONV_RATE'
+     */
+    const VALUE_INVALID_CURRENCY_CONV_RATE = 'INVALID_CURRENCY_CONV_RATE';
+    /**
+     * Constant for value 'INVALID_CURRENCY_CORP_RATE'
+     * @return string 'INVALID_CURRENCY_CORP_RATE'
+     */
+    const VALUE_INVALID_CURRENCY_CORP_RATE = 'INVALID_CURRENCY_CORP_RATE';
+    /**
+     * Constant for value 'INVALID_CURRENCY_ISO'
+     * @return string 'INVALID_CURRENCY_ISO'
+     */
+    const VALUE_INVALID_CURRENCY_ISO = 'INVALID_CURRENCY_ISO';
+    /**
+     * Constant for value 'INVALID_DATASET_REFERENCE_INPUT'
+     * @return string 'INVALID_DATASET_REFERENCE_INPUT'
+     */
+    const VALUE_INVALID_DATASET_REFERENCE_INPUT = 'INVALID_DATASET_REFERENCE_INPUT';
+    /**
+     * Constant for value 'INVALID_DATA_CATEGORY_GROUP_REFERENCE'
+     * @return string 'INVALID_DATA_CATEGORY_GROUP_REFERENCE'
+     */
+    const VALUE_INVALID_DATA_CATEGORY_GROUP_REFERENCE = 'INVALID_DATA_CATEGORY_GROUP_REFERENCE';
+    /**
+     * Constant for value 'INVALID_DATA_URI'
+     * @return string 'INVALID_DATA_URI'
+     */
+    const VALUE_INVALID_DATA_URI = 'INVALID_DATA_URI';
+    /**
+     * Constant for value 'INVALID_EMAIL_ADDRESS'
+     * @return string 'INVALID_EMAIL_ADDRESS'
+     */
+    const VALUE_INVALID_EMAIL_ADDRESS = 'INVALID_EMAIL_ADDRESS';
+    /**
+     * Constant for value 'INVALID_EMPTY_KEY_OWNER'
+     * @return string 'INVALID_EMPTY_KEY_OWNER'
+     */
+    const VALUE_INVALID_EMPTY_KEY_OWNER = 'INVALID_EMPTY_KEY_OWNER';
+    /**
+     * Constant for value 'INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR'
+     * @return string 'INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR'
+     */
+    const VALUE_INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR = 'INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR';
+    /**
+     * Constant for value 'INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR'
+     * @return string 'INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR'
+     */
+    const VALUE_INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR = 'INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR';
+    /**
+     * Constant for value 'INVALID_ENTITY_FOR_UPSERT'
+     * @return string 'INVALID_ENTITY_FOR_UPSERT'
+     */
+    const VALUE_INVALID_ENTITY_FOR_UPSERT = 'INVALID_ENTITY_FOR_UPSERT';
+    /**
+     * Constant for value 'INVALID_ENVIRONMENT_HUB_MEMBER'
+     * @return string 'INVALID_ENVIRONMENT_HUB_MEMBER'
+     */
+    const VALUE_INVALID_ENVIRONMENT_HUB_MEMBER = 'INVALID_ENVIRONMENT_HUB_MEMBER';
+    /**
+     * Constant for value 'INVALID_EVENT_DELIVERY'
+     * @return string 'INVALID_EVENT_DELIVERY'
+     */
+    const VALUE_INVALID_EVENT_DELIVERY = 'INVALID_EVENT_DELIVERY';
+    /**
+     * Constant for value 'INVALID_EVENT_INPUT'
+     * @return string 'INVALID_EVENT_INPUT'
+     */
+    const VALUE_INVALID_EVENT_INPUT = 'INVALID_EVENT_INPUT';
+    /**
+     * Constant for value 'INVALID_EVENT_SUBSCRIPTION'
+     * @return string 'INVALID_EVENT_SUBSCRIPTION'
+     */
+    const VALUE_INVALID_EVENT_SUBSCRIPTION = 'INVALID_EVENT_SUBSCRIPTION';
+    /**
+     * Constant for value 'INVALID_EXTENSION_ID'
+     * @return string 'INVALID_EXTENSION_ID'
+     */
+    const VALUE_INVALID_EXTENSION_ID = 'INVALID_EXTENSION_ID';
+    /**
+     * Constant for value 'INVALID_FIELD'
+     * @return string 'INVALID_FIELD'
+     */
+    const VALUE_INVALID_FIELD = 'INVALID_FIELD';
+    /**
+     * Constant for value 'INVALID_FIELD_FOR_INSERT_UPDATE'
+     * @return string 'INVALID_FIELD_FOR_INSERT_UPDATE'
+     */
+    const VALUE_INVALID_FIELD_FOR_INSERT_UPDATE = 'INVALID_FIELD_FOR_INSERT_UPDATE';
+    /**
+     * Constant for value 'INVALID_FIELD_WHEN_USING_TEMPLATE'
+     * @return string 'INVALID_FIELD_WHEN_USING_TEMPLATE'
+     */
+    const VALUE_INVALID_FIELD_WHEN_USING_TEMPLATE = 'INVALID_FIELD_WHEN_USING_TEMPLATE';
+    /**
+     * Constant for value 'INVALID_FILTER_ACTION'
+     * @return string 'INVALID_FILTER_ACTION'
+     */
+    const VALUE_INVALID_FILTER_ACTION = 'INVALID_FILTER_ACTION';
+    /**
+     * Constant for value 'INVALID_GOOGLE_DOCS_URL'
+     * @return string 'INVALID_GOOGLE_DOCS_URL'
+     */
+    const VALUE_INVALID_GOOGLE_DOCS_URL = 'INVALID_GOOGLE_DOCS_URL';
+    /**
+     * Constant for value 'INVALID_ID_FIELD'
+     * @return string 'INVALID_ID_FIELD'
+     */
+    const VALUE_INVALID_ID_FIELD = 'INVALID_ID_FIELD';
+    /**
+     * Constant for value 'INVALID_INET_ADDRESS'
+     * @return string 'INVALID_INET_ADDRESS'
+     */
+    const VALUE_INVALID_INET_ADDRESS = 'INVALID_INET_ADDRESS';
+    /**
+     * Constant for value 'INVALID_INPUT'
+     * @return string 'INVALID_INPUT'
+     */
+    const VALUE_INVALID_INPUT = 'INVALID_INPUT';
+    /**
+     * Constant for value 'INVALID_KEY_FIELD_INPUT'
+     * @return string 'INVALID_KEY_FIELD_INPUT'
+     */
+    const VALUE_INVALID_KEY_FIELD_INPUT = 'INVALID_KEY_FIELD_INPUT';
+    /**
+     * Constant for value 'INVALID_LINEITEM_CLONE_STATE'
+     * @return string 'INVALID_LINEITEM_CLONE_STATE'
+     */
+    const VALUE_INVALID_LINEITEM_CLONE_STATE = 'INVALID_LINEITEM_CLONE_STATE';
+    /**
+     * Constant for value 'INVALID_MARKUP'
+     * @return string 'INVALID_MARKUP'
+     */
+    const VALUE_INVALID_MARKUP = 'INVALID_MARKUP';
+    /**
+     * Constant for value 'INVALID_MASTER_OR_TRANSLATED_SOLUTION'
+     * @return string 'INVALID_MASTER_OR_TRANSLATED_SOLUTION'
+     */
+    const VALUE_INVALID_MASTER_OR_TRANSLATED_SOLUTION = 'INVALID_MASTER_OR_TRANSLATED_SOLUTION';
+    /**
+     * Constant for value 'INVALID_MESSAGE_ID_REFERENCE'
+     * @return string 'INVALID_MESSAGE_ID_REFERENCE'
+     */
+    const VALUE_INVALID_MESSAGE_ID_REFERENCE = 'INVALID_MESSAGE_ID_REFERENCE';
+    /**
+     * Constant for value 'INVALID_NAMESPACE_PREFIX'
+     * @return string 'INVALID_NAMESPACE_PREFIX'
+     */
+    const VALUE_INVALID_NAMESPACE_PREFIX = 'INVALID_NAMESPACE_PREFIX';
+    /**
+     * Constant for value 'INVALID_OAUTH_URL'
+     * @return string 'INVALID_OAUTH_URL'
+     */
+    const VALUE_INVALID_OAUTH_URL = 'INVALID_OAUTH_URL';
+    /**
+     * Constant for value 'INVALID_OPERATION'
+     * @return string 'INVALID_OPERATION'
+     */
+    const VALUE_INVALID_OPERATION = 'INVALID_OPERATION';
+    /**
+     * Constant for value 'INVALID_OPERATOR'
+     * @return string 'INVALID_OPERATOR'
+     */
+    const VALUE_INVALID_OPERATOR = 'INVALID_OPERATOR';
+    /**
+     * Constant for value 'INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST'
+     * @return string 'INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST'
+     */
+    const VALUE_INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST = 'INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST';
+    /**
+     * Constant for value 'INVALID_OWNER'
+     * @return string 'INVALID_OWNER'
+     */
+    const VALUE_INVALID_OWNER = 'INVALID_OWNER';
+    /**
+     * Constant for value 'INVALID_PACKAGE_LICENSE'
+     * @return string 'INVALID_PACKAGE_LICENSE'
+     */
+    const VALUE_INVALID_PACKAGE_LICENSE = 'INVALID_PACKAGE_LICENSE';
+    /**
+     * Constant for value 'INVALID_PACKAGE_VERSION'
+     * @return string 'INVALID_PACKAGE_VERSION'
+     */
+    const VALUE_INVALID_PACKAGE_VERSION = 'INVALID_PACKAGE_VERSION';
+    /**
+     * Constant for value 'INVALID_PARTNER_NETWORK_STATUS'
+     * @return string 'INVALID_PARTNER_NETWORK_STATUS'
+     */
+    const VALUE_INVALID_PARTNER_NETWORK_STATUS = 'INVALID_PARTNER_NETWORK_STATUS';
+    /**
+     * Constant for value 'INVALID_PAYLOAD_VERSION'
+     * @return string 'INVALID_PAYLOAD_VERSION'
+     */
+    const VALUE_INVALID_PAYLOAD_VERSION = 'INVALID_PAYLOAD_VERSION';
+    /**
+     * Constant for value 'INVALID_PERSON_ACCOUNT_OPERATION'
+     * @return string 'INVALID_PERSON_ACCOUNT_OPERATION'
+     */
+    const VALUE_INVALID_PERSON_ACCOUNT_OPERATION = 'INVALID_PERSON_ACCOUNT_OPERATION';
+    /**
+     * Constant for value 'INVALID_PROVIDER_TYPE'
+     * @return string 'INVALID_PROVIDER_TYPE'
+     */
+    const VALUE_INVALID_PROVIDER_TYPE = 'INVALID_PROVIDER_TYPE';
+    /**
+     * Constant for value 'INVALID_QUERY_KEY'
+     * @return string 'INVALID_QUERY_KEY'
+     */
+    const VALUE_INVALID_QUERY_KEY = 'INVALID_QUERY_KEY';
+    /**
+     * Constant for value 'INVALID_QUERY_LOCATOR'
+     * @return string 'INVALID_QUERY_LOCATOR'
+     */
+    const VALUE_INVALID_QUERY_LOCATOR = 'INVALID_QUERY_LOCATOR';
+    /**
+     * Constant for value 'INVALID_QUERY_VALUE'
+     * @return string 'INVALID_QUERY_VALUE'
+     */
+    const VALUE_INVALID_QUERY_VALUE = 'INVALID_QUERY_VALUE';
+    /**
+     * Constant for value 'INVALID_READ_ONLY_USER_DML'
+     * @return string 'INVALID_READ_ONLY_USER_DML'
+     */
+    const VALUE_INVALID_READ_ONLY_USER_DML = 'INVALID_READ_ONLY_USER_DML';
+    /**
+     * Constant for value 'INVALID_REFRESH_TOKEN'
+     * @return string 'INVALID_REFRESH_TOKEN'
+     */
+    const VALUE_INVALID_REFRESH_TOKEN = 'INVALID_REFRESH_TOKEN';
+    /**
+     * Constant for value 'INVALID_REQUEST_STATE'
+     * @return string 'INVALID_REQUEST_STATE'
+     */
+    const VALUE_INVALID_REQUEST_STATE = 'INVALID_REQUEST_STATE';
+    /**
+     * Constant for value 'INVALID_RUNTIME_VALUE'
+     * @return string 'INVALID_RUNTIME_VALUE'
+     */
+    const VALUE_INVALID_RUNTIME_VALUE = 'INVALID_RUNTIME_VALUE';
+    /**
+     * Constant for value 'INVALID_SAVE_AS_ACTIVITY_FLAG'
+     * @return string 'INVALID_SAVE_AS_ACTIVITY_FLAG'
+     */
+    const VALUE_INVALID_SAVE_AS_ACTIVITY_FLAG = 'INVALID_SAVE_AS_ACTIVITY_FLAG';
+    /**
+     * Constant for value 'INVALID_SCS_INBOUND_USER'
+     * @return string 'INVALID_SCS_INBOUND_USER'
+     */
+    const VALUE_INVALID_SCS_INBOUND_USER = 'INVALID_SCS_INBOUND_USER';
+    /**
+     * Constant for value 'INVALID_SESSION_ID'
+     * @return string 'INVALID_SESSION_ID'
+     */
+    const VALUE_INVALID_SESSION_ID = 'INVALID_SESSION_ID';
+    /**
+     * Constant for value 'INVALID_SETUP_OWNER'
+     * @return string 'INVALID_SETUP_OWNER'
+     */
+    const VALUE_INVALID_SETUP_OWNER = 'INVALID_SETUP_OWNER';
+    /**
+     * Constant for value 'INVALID_SIGNUP_COUNTRY'
+     * @return string 'INVALID_SIGNUP_COUNTRY'
+     */
+    const VALUE_INVALID_SIGNUP_COUNTRY = 'INVALID_SIGNUP_COUNTRY';
+    /**
+     * Constant for value 'INVALID_SIGNUP_OPTION'
+     * @return string 'INVALID_SIGNUP_OPTION'
+     */
+    const VALUE_INVALID_SIGNUP_OPTION = 'INVALID_SIGNUP_OPTION';
+    /**
+     * Constant for value 'INVALID_SITE_DELETE_EXCEPTION'
+     * @return string 'INVALID_SITE_DELETE_EXCEPTION'
+     */
+    const VALUE_INVALID_SITE_DELETE_EXCEPTION = 'INVALID_SITE_DELETE_EXCEPTION';
+    /**
+     * Constant for value 'INVALID_SITE_FILE_IMPORTED_EXCEPTION'
+     * @return string 'INVALID_SITE_FILE_IMPORTED_EXCEPTION'
+     */
+    const VALUE_INVALID_SITE_FILE_IMPORTED_EXCEPTION = 'INVALID_SITE_FILE_IMPORTED_EXCEPTION';
+    /**
+     * Constant for value 'INVALID_SITE_FILE_TYPE_EXCEPTION'
+     * @return string 'INVALID_SITE_FILE_TYPE_EXCEPTION'
+     */
+    const VALUE_INVALID_SITE_FILE_TYPE_EXCEPTION = 'INVALID_SITE_FILE_TYPE_EXCEPTION';
+    /**
+     * Constant for value 'INVALID_STATUS'
+     * @return string 'INVALID_STATUS'
+     */
+    const VALUE_INVALID_STATUS = 'INVALID_STATUS';
+    /**
+     * Constant for value 'INVALID_SUBDOMAIN'
+     * @return string 'INVALID_SUBDOMAIN'
+     */
+    const VALUE_INVALID_SUBDOMAIN = 'INVALID_SUBDOMAIN';
+    /**
+     * Constant for value 'INVALID_TEXT_REPRESENTATION'
+     * @return string 'INVALID_TEXT_REPRESENTATION'
+     */
+    const VALUE_INVALID_TEXT_REPRESENTATION = 'INVALID_TEXT_REPRESENTATION';
+    /**
+     * Constant for value 'INVALID_TYPE'
+     * @return string 'INVALID_TYPE'
+     */
+    const VALUE_INVALID_TYPE = 'INVALID_TYPE';
+    /**
+     * Constant for value 'INVALID_TYPE_FOR_OPERATION'
+     * @return string 'INVALID_TYPE_FOR_OPERATION'
+     */
+    const VALUE_INVALID_TYPE_FOR_OPERATION = 'INVALID_TYPE_FOR_OPERATION';
+    /**
+     * Constant for value 'INVALID_TYPE_ON_FIELD_IN_RECORD'
+     * @return string 'INVALID_TYPE_ON_FIELD_IN_RECORD'
+     */
+    const VALUE_INVALID_TYPE_ON_FIELD_IN_RECORD = 'INVALID_TYPE_ON_FIELD_IN_RECORD';
+    /**
+     * Constant for value 'INVALID_USERID'
+     * @return string 'INVALID_USERID'
+     */
+    const VALUE_INVALID_USERID = 'INVALID_USERID';
+    /**
+     * Constant for value 'IP_RANGE_LIMIT_EXCEEDED'
+     * @return string 'IP_RANGE_LIMIT_EXCEEDED'
+     */
+    const VALUE_IP_RANGE_LIMIT_EXCEEDED = 'IP_RANGE_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'ITEM_NOT_FOUND'
+     * @return string 'ITEM_NOT_FOUND'
+     */
+    const VALUE_ITEM_NOT_FOUND = 'ITEM_NOT_FOUND';
+    /**
+     * Constant for value 'JIGSAW_IMPORT_LIMIT_EXCEEDED'
+     * @return string 'JIGSAW_IMPORT_LIMIT_EXCEEDED'
+     */
+    const VALUE_JIGSAW_IMPORT_LIMIT_EXCEEDED = 'JIGSAW_IMPORT_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'LICENSE_LIMIT_EXCEEDED'
+     * @return string 'LICENSE_LIMIT_EXCEEDED'
+     */
+    const VALUE_LICENSE_LIMIT_EXCEEDED = 'LICENSE_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'LIGHT_PORTAL_USER_EXCEPTION'
+     * @return string 'LIGHT_PORTAL_USER_EXCEPTION'
+     */
+    const VALUE_LIGHT_PORTAL_USER_EXCEPTION = 'LIGHT_PORTAL_USER_EXCEPTION';
+    /**
+     * Constant for value 'LIMIT_EXCEEDED'
+     * @return string 'LIMIT_EXCEEDED'
+     */
+    const VALUE_LIMIT_EXCEEDED = 'LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'MALFORMED_ID'
+     * @return string 'MALFORMED_ID'
+     */
+    const VALUE_MALFORMED_ID = 'MALFORMED_ID';
+    /**
+     * Constant for value 'MANAGER_NOT_DEFINED'
+     * @return string 'MANAGER_NOT_DEFINED'
+     */
+    const VALUE_MANAGER_NOT_DEFINED = 'MANAGER_NOT_DEFINED';
+    /**
+     * Constant for value 'MASSMAIL_RETRY_LIMIT_EXCEEDED'
+     * @return string 'MASSMAIL_RETRY_LIMIT_EXCEEDED'
+     */
+    const VALUE_MASSMAIL_RETRY_LIMIT_EXCEEDED = 'MASSMAIL_RETRY_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'MASS_MAIL_LIMIT_EXCEEDED'
+     * @return string 'MASS_MAIL_LIMIT_EXCEEDED'
+     */
+    const VALUE_MASS_MAIL_LIMIT_EXCEEDED = 'MASS_MAIL_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'MATCH_DEFINITION_ERROR'
+     * @return string 'MATCH_DEFINITION_ERROR'
+     */
+    const VALUE_MATCH_DEFINITION_ERROR = 'MATCH_DEFINITION_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_ERROR'
+     * @return string 'MATCH_OPERATION_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_ERROR = 'MATCH_OPERATION_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_INVALID_ENGINE_ERROR'
+     * @return string 'MATCH_OPERATION_INVALID_ENGINE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_INVALID_ENGINE_ERROR = 'MATCH_OPERATION_INVALID_ENGINE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_INVALID_RULE_ERROR'
+     * @return string 'MATCH_OPERATION_INVALID_RULE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_INVALID_RULE_ERROR = 'MATCH_OPERATION_INVALID_RULE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_MISSING_ENGINE_ERROR'
+     * @return string 'MATCH_OPERATION_MISSING_ENGINE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_MISSING_ENGINE_ERROR = 'MATCH_OPERATION_MISSING_ENGINE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR'
+     * @return string 'MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR = 'MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_MISSING_OPTIONS_ERROR'
+     * @return string 'MATCH_OPERATION_MISSING_OPTIONS_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_MISSING_OPTIONS_ERROR = 'MATCH_OPERATION_MISSING_OPTIONS_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_MISSING_RULE_ERROR'
+     * @return string 'MATCH_OPERATION_MISSING_RULE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_MISSING_RULE_ERROR = 'MATCH_OPERATION_MISSING_RULE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_UNKNOWN_RULE_ERROR'
+     * @return string 'MATCH_OPERATION_UNKNOWN_RULE_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_UNKNOWN_RULE_ERROR = 'MATCH_OPERATION_UNKNOWN_RULE_ERROR';
+    /**
+     * Constant for value 'MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR'
+     * @return string 'MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR'
+     */
+    const VALUE_MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR = 'MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR';
+    /**
+     * Constant for value 'MATCH_PRECONDITION_FAILED'
+     * @return string 'MATCH_PRECONDITION_FAILED'
+     */
+    const VALUE_MATCH_PRECONDITION_FAILED = 'MATCH_PRECONDITION_FAILED';
+    /**
+     * Constant for value 'MATCH_RUNTIME_ERROR'
+     * @return string 'MATCH_RUNTIME_ERROR'
+     */
+    const VALUE_MATCH_RUNTIME_ERROR = 'MATCH_RUNTIME_ERROR';
+    /**
+     * Constant for value 'MATCH_SERVICE_ERROR'
+     * @return string 'MATCH_SERVICE_ERROR'
+     */
+    const VALUE_MATCH_SERVICE_ERROR = 'MATCH_SERVICE_ERROR';
+    /**
+     * Constant for value 'MATCH_SERVICE_TIMED_OUT'
+     * @return string 'MATCH_SERVICE_TIMED_OUT'
+     */
+    const VALUE_MATCH_SERVICE_TIMED_OUT = 'MATCH_SERVICE_TIMED_OUT';
+    /**
+     * Constant for value 'MATCH_SERVICE_UNAVAILABLE_ERROR'
+     * @return string 'MATCH_SERVICE_UNAVAILABLE_ERROR'
+     */
+    const VALUE_MATCH_SERVICE_UNAVAILABLE_ERROR = 'MATCH_SERVICE_UNAVAILABLE_ERROR';
+    /**
+     * Constant for value 'MAXIMUM_CCEMAILS_EXCEEDED'
+     * @return string 'MAXIMUM_CCEMAILS_EXCEEDED'
+     */
+    const VALUE_MAXIMUM_CCEMAILS_EXCEEDED = 'MAXIMUM_CCEMAILS_EXCEEDED';
+    /**
+     * Constant for value 'MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED'
+     * @return string 'MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED'
+     */
+    const VALUE_MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED = 'MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED';
+    /**
+     * Constant for value 'MAXIMUM_HIERARCHY_CHILDREN_REACHED'
+     * @return string 'MAXIMUM_HIERARCHY_CHILDREN_REACHED'
+     */
+    const VALUE_MAXIMUM_HIERARCHY_CHILDREN_REACHED = 'MAXIMUM_HIERARCHY_CHILDREN_REACHED';
+    /**
+     * Constant for value 'MAXIMUM_HIERARCHY_LEVELS_REACHED'
+     * @return string 'MAXIMUM_HIERARCHY_LEVELS_REACHED'
+     */
+    const VALUE_MAXIMUM_HIERARCHY_LEVELS_REACHED = 'MAXIMUM_HIERARCHY_LEVELS_REACHED';
+    /**
+     * Constant for value 'MAXIMUM_HIERARCHY_TREE_SIZE_REACHED'
+     * @return string 'MAXIMUM_HIERARCHY_TREE_SIZE_REACHED'
+     */
+    const VALUE_MAXIMUM_HIERARCHY_TREE_SIZE_REACHED = 'MAXIMUM_HIERARCHY_TREE_SIZE_REACHED';
+    /**
+     * Constant for value 'MAXIMUM_SIZE_OF_ATTACHMENT'
+     * @return string 'MAXIMUM_SIZE_OF_ATTACHMENT'
+     */
+    const VALUE_MAXIMUM_SIZE_OF_ATTACHMENT = 'MAXIMUM_SIZE_OF_ATTACHMENT';
+    /**
+     * Constant for value 'MAXIMUM_SIZE_OF_DOCUMENT'
+     * @return string 'MAXIMUM_SIZE_OF_DOCUMENT'
+     */
+    const VALUE_MAXIMUM_SIZE_OF_DOCUMENT = 'MAXIMUM_SIZE_OF_DOCUMENT';
+    /**
+     * Constant for value 'MAX_ACTIONS_PER_RULE_EXCEEDED'
+     * @return string 'MAX_ACTIONS_PER_RULE_EXCEEDED'
+     */
+    const VALUE_MAX_ACTIONS_PER_RULE_EXCEEDED = 'MAX_ACTIONS_PER_RULE_EXCEEDED';
+    /**
+     * Constant for value 'MAX_ACTIVE_RULES_EXCEEDED'
+     * @return string 'MAX_ACTIVE_RULES_EXCEEDED'
+     */
+    const VALUE_MAX_ACTIVE_RULES_EXCEEDED = 'MAX_ACTIVE_RULES_EXCEEDED';
+    /**
+     * Constant for value 'MAX_APPROVAL_STEPS_EXCEEDED'
+     * @return string 'MAX_APPROVAL_STEPS_EXCEEDED'
+     */
+    const VALUE_MAX_APPROVAL_STEPS_EXCEEDED = 'MAX_APPROVAL_STEPS_EXCEEDED';
+    /**
+     * Constant for value 'MAX_DEPTH_IN_FLOW_EXECUTION'
+     * @return string 'MAX_DEPTH_IN_FLOW_EXECUTION'
+     */
+    const VALUE_MAX_DEPTH_IN_FLOW_EXECUTION = 'MAX_DEPTH_IN_FLOW_EXECUTION';
+    /**
+     * Constant for value 'MAX_FORMULAS_PER_RULE_EXCEEDED'
+     * @return string 'MAX_FORMULAS_PER_RULE_EXCEEDED'
+     */
+    const VALUE_MAX_FORMULAS_PER_RULE_EXCEEDED = 'MAX_FORMULAS_PER_RULE_EXCEEDED';
+    /**
+     * Constant for value 'MAX_LIMIT_EXCEEDED'
+     * @return string 'MAX_LIMIT_EXCEEDED'
+     */
+    const VALUE_MAX_LIMIT_EXCEEDED = 'MAX_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'MAX_RULES_EXCEEDED'
+     * @return string 'MAX_RULES_EXCEEDED'
+     */
+    const VALUE_MAX_RULES_EXCEEDED = 'MAX_RULES_EXCEEDED';
+    /**
+     * Constant for value 'MAX_RULE_ENTRIES_EXCEEDED'
+     * @return string 'MAX_RULE_ENTRIES_EXCEEDED'
+     */
+    const VALUE_MAX_RULE_ENTRIES_EXCEEDED = 'MAX_RULE_ENTRIES_EXCEEDED';
+    /**
+     * Constant for value 'MAX_TASK_DESCRIPTION_EXCEEEDED'
+     * @return string 'MAX_TASK_DESCRIPTION_EXCEEEDED'
+     */
+    const VALUE_MAX_TASK_DESCRIPTION_EXCEEEDED = 'MAX_TASK_DESCRIPTION_EXCEEEDED';
+    /**
+     * Constant for value 'MAX_TM_RULES_EXCEEDED'
+     * @return string 'MAX_TM_RULES_EXCEEDED'
+     */
+    const VALUE_MAX_TM_RULES_EXCEEDED = 'MAX_TM_RULES_EXCEEDED';
+    /**
+     * Constant for value 'MAX_TM_RULE_ITEMS_EXCEEDED'
+     * @return string 'MAX_TM_RULE_ITEMS_EXCEEDED'
+     */
+    const VALUE_MAX_TM_RULE_ITEMS_EXCEEDED = 'MAX_TM_RULE_ITEMS_EXCEEDED';
+    /**
+     * Constant for value 'MAX_TRIGGERS_EXCEEDED'
+     * @return string 'MAX_TRIGGERS_EXCEEDED'
+     */
+    const VALUE_MAX_TRIGGERS_EXCEEDED = 'MAX_TRIGGERS_EXCEEDED';
+    /**
+     * Constant for value 'MERGE_FAILED'
+     * @return string 'MERGE_FAILED'
+     */
+    const VALUE_MERGE_FAILED = 'MERGE_FAILED';
+    /**
+     * Constant for value 'METADATA_FIELD_UPDATE_ERROR'
+     * @return string 'METADATA_FIELD_UPDATE_ERROR'
+     */
+    const VALUE_METADATA_FIELD_UPDATE_ERROR = 'METADATA_FIELD_UPDATE_ERROR';
+    /**
+     * Constant for value 'MISSING_ARGUMENT'
+     * @return string 'MISSING_ARGUMENT'
+     */
+    const VALUE_MISSING_ARGUMENT = 'MISSING_ARGUMENT';
+    /**
+     * Constant for value 'MISSING_RECORD'
+     * @return string 'MISSING_RECORD'
+     */
+    const VALUE_MISSING_RECORD = 'MISSING_RECORD';
+    /**
+     * Constant for value 'MIXED_DML_OPERATION'
+     * @return string 'MIXED_DML_OPERATION'
+     */
+    const VALUE_MIXED_DML_OPERATION = 'MIXED_DML_OPERATION';
+    /**
+     * Constant for value 'NONUNIQUE_SHIPPING_ADDRESS'
+     * @return string 'NONUNIQUE_SHIPPING_ADDRESS'
+     */
+    const VALUE_NONUNIQUE_SHIPPING_ADDRESS = 'NONUNIQUE_SHIPPING_ADDRESS';
+    /**
+     * Constant for value 'NO_ACCESS_TOKEN'
+     * @return string 'NO_ACCESS_TOKEN'
+     */
+    const VALUE_NO_ACCESS_TOKEN = 'NO_ACCESS_TOKEN';
+    /**
+     * Constant for value 'NO_ACCESS_TOKEN_FROM_REFRESH'
+     * @return string 'NO_ACCESS_TOKEN_FROM_REFRESH'
+     */
+    const VALUE_NO_ACCESS_TOKEN_FROM_REFRESH = 'NO_ACCESS_TOKEN_FROM_REFRESH';
+    /**
+     * Constant for value 'NO_APPLICABLE_PROCESS'
+     * @return string 'NO_APPLICABLE_PROCESS'
+     */
+    const VALUE_NO_APPLICABLE_PROCESS = 'NO_APPLICABLE_PROCESS';
+    /**
+     * Constant for value 'NO_ATTACHMENT_PERMISSION'
+     * @return string 'NO_ATTACHMENT_PERMISSION'
+     */
+    const VALUE_NO_ATTACHMENT_PERMISSION = 'NO_ATTACHMENT_PERMISSION';
+    /**
+     * Constant for value 'NO_AUTH_PROVIDER'
+     * @return string 'NO_AUTH_PROVIDER'
+     */
+    const VALUE_NO_AUTH_PROVIDER = 'NO_AUTH_PROVIDER';
+    /**
+     * Constant for value 'NO_INACTIVE_DIVISION_MEMBERS'
+     * @return string 'NO_INACTIVE_DIVISION_MEMBERS'
+     */
+    const VALUE_NO_INACTIVE_DIVISION_MEMBERS = 'NO_INACTIVE_DIVISION_MEMBERS';
+    /**
+     * Constant for value 'NO_MASS_MAIL_PERMISSION'
+     * @return string 'NO_MASS_MAIL_PERMISSION'
+     */
+    const VALUE_NO_MASS_MAIL_PERMISSION = 'NO_MASS_MAIL_PERMISSION';
+    /**
+     * Constant for value 'NO_PARTNER_PERMISSION'
+     * @return string 'NO_PARTNER_PERMISSION'
+     */
+    const VALUE_NO_PARTNER_PERMISSION = 'NO_PARTNER_PERMISSION';
+    /**
+     * Constant for value 'NO_REFRESH_TOKEN'
+     * @return string 'NO_REFRESH_TOKEN'
+     */
+    const VALUE_NO_REFRESH_TOKEN = 'NO_REFRESH_TOKEN';
+    /**
+     * Constant for value 'NO_SUCH_USER_EXISTS'
+     * @return string 'NO_SUCH_USER_EXISTS'
+     */
+    const VALUE_NO_SUCH_USER_EXISTS = 'NO_SUCH_USER_EXISTS';
+    /**
+     * Constant for value 'NO_TOKEN_ENDPOINT'
+     * @return string 'NO_TOKEN_ENDPOINT'
+     */
+    const VALUE_NO_TOKEN_ENDPOINT = 'NO_TOKEN_ENDPOINT';
+    /**
+     * Constant for value 'NUMBER_OUTSIDE_VALID_RANGE'
+     * @return string 'NUMBER_OUTSIDE_VALID_RANGE'
+     */
+    const VALUE_NUMBER_OUTSIDE_VALID_RANGE = 'NUMBER_OUTSIDE_VALID_RANGE';
+    /**
+     * Constant for value 'NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED'
+     * @return string 'NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED'
+     */
+    const VALUE_NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED = 'NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED';
+    /**
+     * Constant for value 'OPERATION_ENQUEUED'
+     * @return string 'OPERATION_ENQUEUED'
+     */
+    const VALUE_OPERATION_ENQUEUED = 'OPERATION_ENQUEUED';
+    /**
+     * Constant for value 'OPTED_OUT_OF_MASS_MAIL'
+     * @return string 'OPTED_OUT_OF_MASS_MAIL'
+     */
+    const VALUE_OPTED_OUT_OF_MASS_MAIL = 'OPTED_OUT_OF_MASS_MAIL';
+    /**
+     * Constant for value 'OP_WITH_INVALID_USER_TYPE_EXCEPTION'
+     * @return string 'OP_WITH_INVALID_USER_TYPE_EXCEPTION'
+     */
+    const VALUE_OP_WITH_INVALID_USER_TYPE_EXCEPTION = 'OP_WITH_INVALID_USER_TYPE_EXCEPTION';
+    /**
+     * Constant for value 'ORCHESTRATION_INVALID'
+     * @return string 'ORCHESTRATION_INVALID'
+     */
+    const VALUE_ORCHESTRATION_INVALID = 'ORCHESTRATION_INVALID';
+    /**
+     * Constant for value 'ORDER_MANAGEMENT_ACTION_NOT_ALLOWED'
+     * @return string 'ORDER_MANAGEMENT_ACTION_NOT_ALLOWED'
+     */
+    const VALUE_ORDER_MANAGEMENT_ACTION_NOT_ALLOWED = 'ORDER_MANAGEMENT_ACTION_NOT_ALLOWED';
+    /**
+     * Constant for value 'ORDER_MANAGEMENT_RECORD_EXISTS'
+     * @return string 'ORDER_MANAGEMENT_RECORD_EXISTS'
+     */
+    const VALUE_ORDER_MANAGEMENT_RECORD_EXISTS = 'ORDER_MANAGEMENT_RECORD_EXISTS';
+    /**
+     * Constant for value 'ORDER_MANAGEMENT_RECORD_NOT_FOUND'
+     * @return string 'ORDER_MANAGEMENT_RECORD_NOT_FOUND'
+     */
+    const VALUE_ORDER_MANAGEMENT_RECORD_NOT_FOUND = 'ORDER_MANAGEMENT_RECORD_NOT_FOUND';
+    /**
+     * Constant for value 'PACKAGE_DISABLED'
+     * @return string 'PACKAGE_DISABLED'
+     */
+    const VALUE_PACKAGE_DISABLED = 'PACKAGE_DISABLED';
+    /**
+     * Constant for value 'PACKAGE_LICENSE_REQUIRED'
+     * @return string 'PACKAGE_LICENSE_REQUIRED'
+     */
+    const VALUE_PACKAGE_LICENSE_REQUIRED = 'PACKAGE_LICENSE_REQUIRED';
+    /**
+     * Constant for value 'PACKAGING_API_INSTALL_FAILED'
+     * @return string 'PACKAGING_API_INSTALL_FAILED'
+     */
+    const VALUE_PACKAGING_API_INSTALL_FAILED = 'PACKAGING_API_INSTALL_FAILED';
+    /**
+     * Constant for value 'PACKAGING_API_UNINSTALL_FAILED'
+     * @return string 'PACKAGING_API_UNINSTALL_FAILED'
+     */
+    const VALUE_PACKAGING_API_UNINSTALL_FAILED = 'PACKAGING_API_UNINSTALL_FAILED';
+    /**
+     * Constant for value 'PALI_INVALID_ACTION_ID'
+     * @return string 'PALI_INVALID_ACTION_ID'
+     */
+    const VALUE_PALI_INVALID_ACTION_ID = 'PALI_INVALID_ACTION_ID';
+    /**
+     * Constant for value 'PALI_INVALID_ACTION_NAME'
+     * @return string 'PALI_INVALID_ACTION_NAME'
+     */
+    const VALUE_PALI_INVALID_ACTION_NAME = 'PALI_INVALID_ACTION_NAME';
+    /**
+     * Constant for value 'PALI_INVALID_ACTION_TYPE'
+     * @return string 'PALI_INVALID_ACTION_TYPE'
+     */
+    const VALUE_PALI_INVALID_ACTION_TYPE = 'PALI_INVALID_ACTION_TYPE';
+    /**
+     * Constant for value 'PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID'
+     * @return string 'PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID'
+     */
+    const VALUE_PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID = 'PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID';
+    /**
+     * Constant for value 'PAL_INVALID_ENTITY_ID'
+     * @return string 'PAL_INVALID_ENTITY_ID'
+     */
+    const VALUE_PAL_INVALID_ENTITY_ID = 'PAL_INVALID_ENTITY_ID';
+    /**
+     * Constant for value 'PAL_INVALID_FLEXIPAGE_ID'
+     * @return string 'PAL_INVALID_FLEXIPAGE_ID'
+     */
+    const VALUE_PAL_INVALID_FLEXIPAGE_ID = 'PAL_INVALID_FLEXIPAGE_ID';
+    /**
+     * Constant for value 'PAL_INVALID_LAYOUT_ID'
+     * @return string 'PAL_INVALID_LAYOUT_ID'
+     */
+    const VALUE_PAL_INVALID_LAYOUT_ID = 'PAL_INVALID_LAYOUT_ID';
+    /**
+     * Constant for value 'PAL_INVALID_PARAMETERS'
+     * @return string 'PAL_INVALID_PARAMETERS'
+     */
+    const VALUE_PAL_INVALID_PARAMETERS = 'PAL_INVALID_PARAMETERS';
+    /**
+     * Constant for value 'PAYLOAD_SIZE_EXCEEDED'
+     * @return string 'PAYLOAD_SIZE_EXCEEDED'
+     */
+    const VALUE_PAYLOAD_SIZE_EXCEEDED = 'PAYLOAD_SIZE_EXCEEDED';
+    /**
+     * Constant for value 'PA_API_EXCEPTION'
+     * @return string 'PA_API_EXCEPTION'
+     */
+    const VALUE_PA_API_EXCEPTION = 'PA_API_EXCEPTION';
+    /**
+     * Constant for value 'PA_AXIS_FAULT'
+     * @return string 'PA_AXIS_FAULT'
+     */
+    const VALUE_PA_AXIS_FAULT = 'PA_AXIS_FAULT';
+    /**
+     * Constant for value 'PA_INVALID_ID_EXCEPTION'
+     * @return string 'PA_INVALID_ID_EXCEPTION'
+     */
+    const VALUE_PA_INVALID_ID_EXCEPTION = 'PA_INVALID_ID_EXCEPTION';
+    /**
+     * Constant for value 'PA_NO_ACCESS_EXCEPTION'
+     * @return string 'PA_NO_ACCESS_EXCEPTION'
+     */
+    const VALUE_PA_NO_ACCESS_EXCEPTION = 'PA_NO_ACCESS_EXCEPTION';
+    /**
+     * Constant for value 'PA_NO_DATA_FOUND_EXCEPTION'
+     * @return string 'PA_NO_DATA_FOUND_EXCEPTION'
+     */
+    const VALUE_PA_NO_DATA_FOUND_EXCEPTION = 'PA_NO_DATA_FOUND_EXCEPTION';
+    /**
+     * Constant for value 'PA_URI_SYNTAX_EXCEPTION'
+     * @return string 'PA_URI_SYNTAX_EXCEPTION'
+     */
+    const VALUE_PA_URI_SYNTAX_EXCEPTION = 'PA_URI_SYNTAX_EXCEPTION';
+    /**
+     * Constant for value 'PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION'
+     * @return string 'PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION'
+     */
+    const VALUE_PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION = 'PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION';
+    /**
+     * Constant for value 'PLATFORM_EVENT_ENCRYPTION_ERROR'
+     * @return string 'PLATFORM_EVENT_ENCRYPTION_ERROR'
+     */
+    const VALUE_PLATFORM_EVENT_ENCRYPTION_ERROR = 'PLATFORM_EVENT_ENCRYPTION_ERROR';
+    /**
+     * Constant for value 'PLATFORM_EVENT_PUBLISHING_UNAVAILABLE'
+     * @return string 'PLATFORM_EVENT_PUBLISHING_UNAVAILABLE'
+     */
+    const VALUE_PLATFORM_EVENT_PUBLISHING_UNAVAILABLE = 'PLATFORM_EVENT_PUBLISHING_UNAVAILABLE';
+    /**
+     * Constant for value 'PLATFORM_EVENT_PUBLISH_FAILED'
+     * @return string 'PLATFORM_EVENT_PUBLISH_FAILED'
+     */
+    const VALUE_PLATFORM_EVENT_PUBLISH_FAILED = 'PLATFORM_EVENT_PUBLISH_FAILED';
+    /**
+     * Constant for value 'PORTAL_NO_ACCESS'
+     * @return string 'PORTAL_NO_ACCESS'
+     */
+    const VALUE_PORTAL_NO_ACCESS = 'PORTAL_NO_ACCESS';
+    /**
+     * Constant for value 'PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT'
+     * @return string 'PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT'
+     */
+    const VALUE_PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT = 'PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT';
+    /**
+     * Constant for value 'PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION'
+     * @return string 'PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION'
+     */
+    const VALUE_PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION = 'PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION';
+    /**
+     * Constant for value 'PRICE_NOT_FOUND'
+     * @return string 'PRICE_NOT_FOUND'
+     */
+    const VALUE_PRICE_NOT_FOUND = 'PRICE_NOT_FOUND';
+    /**
+     * Constant for value 'PRIVATE_CONTACT_ON_ASSET'
+     * @return string 'PRIVATE_CONTACT_ON_ASSET'
+     */
+    const VALUE_PRIVATE_CONTACT_ON_ASSET = 'PRIVATE_CONTACT_ON_ASSET';
+    /**
+     * Constant for value 'PROCESSING_HALTED'
+     * @return string 'PROCESSING_HALTED'
+     */
+    const VALUE_PROCESSING_HALTED = 'PROCESSING_HALTED';
+    /**
+     * Constant for value 'QA_INVALID_CREATE_FEED_ITEM'
+     * @return string 'QA_INVALID_CREATE_FEED_ITEM'
+     */
+    const VALUE_QA_INVALID_CREATE_FEED_ITEM = 'QA_INVALID_CREATE_FEED_ITEM';
+    /**
+     * Constant for value 'QA_INVALID_SUCCESS_MESSAGE'
+     * @return string 'QA_INVALID_SUCCESS_MESSAGE'
+     */
+    const VALUE_QA_INVALID_SUCCESS_MESSAGE = 'QA_INVALID_SUCCESS_MESSAGE';
+    /**
+     * Constant for value 'QUERY_TIMEOUT'
+     * @return string 'QUERY_TIMEOUT'
+     */
+    const VALUE_QUERY_TIMEOUT = 'QUERY_TIMEOUT';
+    /**
+     * Constant for value 'QUICK_ACTION_LIST_ITEM_NOT_ALLOWED'
+     * @return string 'QUICK_ACTION_LIST_ITEM_NOT_ALLOWED'
+     */
+    const VALUE_QUICK_ACTION_LIST_ITEM_NOT_ALLOWED = 'QUICK_ACTION_LIST_ITEM_NOT_ALLOWED';
+    /**
+     * Constant for value 'QUICK_ACTION_LIST_NOT_ALLOWED'
+     * @return string 'QUICK_ACTION_LIST_NOT_ALLOWED'
+     */
+    const VALUE_QUICK_ACTION_LIST_NOT_ALLOWED = 'QUICK_ACTION_LIST_NOT_ALLOWED';
+    /**
+     * Constant for value 'RECORD_IN_USE_BY_WORKFLOW'
+     * @return string 'RECORD_IN_USE_BY_WORKFLOW'
+     */
+    const VALUE_RECORD_IN_USE_BY_WORKFLOW = 'RECORD_IN_USE_BY_WORKFLOW';
+    /**
+     * Constant for value 'RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION'
+     * @return string 'RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION'
+     */
+    const VALUE_RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION = 'RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION';
+    /**
+     * Constant for value 'REL_FIELD_BAD_ACCESSIBILITY'
+     * @return string 'REL_FIELD_BAD_ACCESSIBILITY'
+     */
+    const VALUE_REL_FIELD_BAD_ACCESSIBILITY = 'REL_FIELD_BAD_ACCESSIBILITY';
+    /**
+     * Constant for value 'REPUTATION_MINIMUM_NUMBER_NOT_REACHED'
+     * @return string 'REPUTATION_MINIMUM_NUMBER_NOT_REACHED'
+     */
+    const VALUE_REPUTATION_MINIMUM_NUMBER_NOT_REACHED = 'REPUTATION_MINIMUM_NUMBER_NOT_REACHED';
+    /**
+     * Constant for value 'REQUEST_RUNNING_TOO_LONG'
+     * @return string 'REQUEST_RUNNING_TOO_LONG'
+     */
+    const VALUE_REQUEST_RUNNING_TOO_LONG = 'REQUEST_RUNNING_TOO_LONG';
+    /**
+     * Constant for value 'REQUIRED_FEATURE_MISSING'
+     * @return string 'REQUIRED_FEATURE_MISSING'
+     */
+    const VALUE_REQUIRED_FEATURE_MISSING = 'REQUIRED_FEATURE_MISSING';
+    /**
+     * Constant for value 'REQUIRED_FIELD_MISSING'
+     * @return string 'REQUIRED_FIELD_MISSING'
+     */
+    const VALUE_REQUIRED_FIELD_MISSING = 'REQUIRED_FIELD_MISSING';
+    /**
+     * Constant for value 'REQUIRE_CONNECTED_APP_SCS'
+     * @return string 'REQUIRE_CONNECTED_APP_SCS'
+     */
+    const VALUE_REQUIRE_CONNECTED_APP_SCS = 'REQUIRE_CONNECTED_APP_SCS';
+    /**
+     * Constant for value 'REQUIRE_CONNECTED_APP_SESSION_SCS'
+     * @return string 'REQUIRE_CONNECTED_APP_SESSION_SCS'
+     */
+    const VALUE_REQUIRE_CONNECTED_APP_SESSION_SCS = 'REQUIRE_CONNECTED_APP_SESSION_SCS';
+    /**
+     * Constant for value 'REQUIRE_RUNAS_USER'
+     * @return string 'REQUIRE_RUNAS_USER'
+     */
+    const VALUE_REQUIRE_RUNAS_USER = 'REQUIRE_RUNAS_USER';
+    /**
+     * Constant for value 'RETRIEVE_EXCHANGE_ATTACHMENT_FAILED'
+     * @return string 'RETRIEVE_EXCHANGE_ATTACHMENT_FAILED'
+     */
+    const VALUE_RETRIEVE_EXCHANGE_ATTACHMENT_FAILED = 'RETRIEVE_EXCHANGE_ATTACHMENT_FAILED';
+    /**
+     * Constant for value 'RETRIEVE_EXCHANGE_EMAIL_FAILED'
+     * @return string 'RETRIEVE_EXCHANGE_EMAIL_FAILED'
+     */
+    const VALUE_RETRIEVE_EXCHANGE_EMAIL_FAILED = 'RETRIEVE_EXCHANGE_EMAIL_FAILED';
+    /**
+     * Constant for value 'RETRIEVE_EXCHANGE_EVENT_FAILED'
+     * @return string 'RETRIEVE_EXCHANGE_EVENT_FAILED'
+     */
+    const VALUE_RETRIEVE_EXCHANGE_EVENT_FAILED = 'RETRIEVE_EXCHANGE_EVENT_FAILED';
+    /**
+     * Constant for value 'RETRIEVE_GOOGLE_EMAIL_FAILED'
+     * @return string 'RETRIEVE_GOOGLE_EMAIL_FAILED'
+     */
+    const VALUE_RETRIEVE_GOOGLE_EMAIL_FAILED = 'RETRIEVE_GOOGLE_EMAIL_FAILED';
+    /**
+     * Constant for value 'RETRIEVE_GOOGLE_EVENT_FAILED'
+     * @return string 'RETRIEVE_GOOGLE_EVENT_FAILED'
+     */
+    const VALUE_RETRIEVE_GOOGLE_EVENT_FAILED = 'RETRIEVE_GOOGLE_EVENT_FAILED';
+    /**
+     * Constant for value 'RETRIEVE_USER_CONFIG_ERROR'
+     * @return string 'RETRIEVE_USER_CONFIG_ERROR'
+     */
+    const VALUE_RETRIEVE_USER_CONFIG_ERROR = 'RETRIEVE_USER_CONFIG_ERROR';
+    /**
+     * Constant for value 'SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR'
+     * @return string 'SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR'
+     */
+    const VALUE_SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR = 'SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR';
+    /**
+     * Constant for value 'SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR'
+     * @return string 'SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR'
+     */
+    const VALUE_SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR = 'SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR';
+    /**
+     * Constant for value 'SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR'
+     * @return string 'SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR'
+     */
+    const VALUE_SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR = 'SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR';
+    /**
+     * Constant for value 'SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR'
+     * @return string 'SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR'
+     */
+    const VALUE_SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR = 'SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR';
+    /**
+     * Constant for value 'SELF_REFERENCE_FROM_FLOW'
+     * @return string 'SELF_REFERENCE_FROM_FLOW'
+     */
+    const VALUE_SELF_REFERENCE_FROM_FLOW = 'SELF_REFERENCE_FROM_FLOW';
+    /**
+     * Constant for value 'SELF_REFERENCE_FROM_TRIGGER'
+     * @return string 'SELF_REFERENCE_FROM_TRIGGER'
+     */
+    const VALUE_SELF_REFERENCE_FROM_TRIGGER = 'SELF_REFERENCE_FROM_TRIGGER';
+    /**
+     * Constant for value 'SHARE_NEEDED_FOR_CHILD_OWNER'
+     * @return string 'SHARE_NEEDED_FOR_CHILD_OWNER'
+     */
+    const VALUE_SHARE_NEEDED_FOR_CHILD_OWNER = 'SHARE_NEEDED_FOR_CHILD_OWNER';
+    /**
+     * Constant for value 'SINGLE_EMAIL_LIMIT_EXCEEDED'
+     * @return string 'SINGLE_EMAIL_LIMIT_EXCEEDED'
+     */
+    const VALUE_SINGLE_EMAIL_LIMIT_EXCEEDED = 'SINGLE_EMAIL_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'SOCIAL_ACCOUNT_NOT_FOUND'
+     * @return string 'SOCIAL_ACCOUNT_NOT_FOUND'
+     */
+    const VALUE_SOCIAL_ACCOUNT_NOT_FOUND = 'SOCIAL_ACCOUNT_NOT_FOUND';
+    /**
+     * Constant for value 'SOCIAL_ACTION_INVALID'
+     * @return string 'SOCIAL_ACTION_INVALID'
+     */
+    const VALUE_SOCIAL_ACTION_INVALID = 'SOCIAL_ACTION_INVALID';
+    /**
+     * Constant for value 'SOCIAL_PERSONA_NOT_FOUND'
+     * @return string 'SOCIAL_PERSONA_NOT_FOUND'
+     */
+    const VALUE_SOCIAL_PERSONA_NOT_FOUND = 'SOCIAL_PERSONA_NOT_FOUND';
+    /**
+     * Constant for value 'SOCIAL_POST_INVALID'
+     * @return string 'SOCIAL_POST_INVALID'
+     */
+    const VALUE_SOCIAL_POST_INVALID = 'SOCIAL_POST_INVALID';
+    /**
+     * Constant for value 'SOCIAL_POST_NOT_FOUND'
+     * @return string 'SOCIAL_POST_NOT_FOUND'
+     */
+    const VALUE_SOCIAL_POST_NOT_FOUND = 'SOCIAL_POST_NOT_FOUND';
+    /**
+     * Constant for value 'STANDARD_PRICE_NOT_DEFINED'
+     * @return string 'STANDARD_PRICE_NOT_DEFINED'
+     */
+    const VALUE_STANDARD_PRICE_NOT_DEFINED = 'STANDARD_PRICE_NOT_DEFINED';
+    /**
+     * Constant for value 'STORAGE_LIMIT_EXCEEDED'
+     * @return string 'STORAGE_LIMIT_EXCEEDED'
+     */
+    const VALUE_STORAGE_LIMIT_EXCEEDED = 'STORAGE_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'STRING_TOO_LONG'
+     * @return string 'STRING_TOO_LONG'
+     */
+    const VALUE_STRING_TOO_LONG = 'STRING_TOO_LONG';
+    /**
+     * Constant for value 'SUBDOMAIN_IN_USE'
+     * @return string 'SUBDOMAIN_IN_USE'
+     */
+    const VALUE_SUBDOMAIN_IN_USE = 'SUBDOMAIN_IN_USE';
+    /**
+     * Constant for value 'TABSET_LIMIT_EXCEEDED'
+     * @return string 'TABSET_LIMIT_EXCEEDED'
+     */
+    const VALUE_TABSET_LIMIT_EXCEEDED = 'TABSET_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'TEMPLATE_NOT_ACTIVE'
+     * @return string 'TEMPLATE_NOT_ACTIVE'
+     */
+    const VALUE_TEMPLATE_NOT_ACTIVE = 'TEMPLATE_NOT_ACTIVE';
+    /**
+     * Constant for value 'TEMPLATE_NOT_FOUND'
+     * @return string 'TEMPLATE_NOT_FOUND'
+     */
+    const VALUE_TEMPLATE_NOT_FOUND = 'TEMPLATE_NOT_FOUND';
+    /**
+     * Constant for value 'TERMS_OF_SERVICE_UNREAD'
+     * @return string 'TERMS_OF_SERVICE_UNREAD'
+     */
+    const VALUE_TERMS_OF_SERVICE_UNREAD = 'TERMS_OF_SERVICE_UNREAD';
+    /**
+     * Constant for value 'TERRITORY_REALIGN_IN_PROGRESS'
+     * @return string 'TERRITORY_REALIGN_IN_PROGRESS'
+     */
+    const VALUE_TERRITORY_REALIGN_IN_PROGRESS = 'TERRITORY_REALIGN_IN_PROGRESS';
+    /**
+     * Constant for value 'TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET'
+     * @return string 'TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET'
+     */
+    const VALUE_TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET = 'TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET';
+    /**
+     * Constant for value 'TOO_MANY_APEX_REQUESTS'
+     * @return string 'TOO_MANY_APEX_REQUESTS'
+     */
+    const VALUE_TOO_MANY_APEX_REQUESTS = 'TOO_MANY_APEX_REQUESTS';
+    /**
+     * Constant for value 'TOO_MANY_ENUM_VALUE'
+     * @return string 'TOO_MANY_ENUM_VALUE'
+     */
+    const VALUE_TOO_MANY_ENUM_VALUE = 'TOO_MANY_ENUM_VALUE';
+    /**
+     * Constant for value 'TOO_MANY_JOBS'
+     * @return string 'TOO_MANY_JOBS'
+     */
+    const VALUE_TOO_MANY_JOBS = 'TOO_MANY_JOBS';
+    /**
+     * Constant for value 'TOO_MANY_POSSIBLE_USERS_EXIST'
+     * @return string 'TOO_MANY_POSSIBLE_USERS_EXIST'
+     */
+    const VALUE_TOO_MANY_POSSIBLE_USERS_EXIST = 'TOO_MANY_POSSIBLE_USERS_EXIST';
+    /**
+     * Constant for value 'TRANSFER_REQUIRES_READ'
+     * @return string 'TRANSFER_REQUIRES_READ'
+     */
+    const VALUE_TRANSFER_REQUIRES_READ = 'TRANSFER_REQUIRES_READ';
+    /**
+     * Constant for value 'UNABLE_TO_LOCK_ROW'
+     * @return string 'UNABLE_TO_LOCK_ROW'
+     */
+    const VALUE_UNABLE_TO_LOCK_ROW = 'UNABLE_TO_LOCK_ROW';
+    /**
+     * Constant for value 'UNAVAILABLE_RECORDTYPE_EXCEPTION'
+     * @return string 'UNAVAILABLE_RECORDTYPE_EXCEPTION'
+     */
+    const VALUE_UNAVAILABLE_RECORDTYPE_EXCEPTION = 'UNAVAILABLE_RECORDTYPE_EXCEPTION';
+    /**
+     * Constant for value 'UNAVAILABLE_REF'
+     * @return string 'UNAVAILABLE_REF'
+     */
+    const VALUE_UNAVAILABLE_REF = 'UNAVAILABLE_REF';
+    /**
+     * Constant for value 'UNDELETE_FAILED'
+     * @return string 'UNDELETE_FAILED'
+     */
+    const VALUE_UNDELETE_FAILED = 'UNDELETE_FAILED';
+    /**
+     * Constant for value 'UNKNOWN_EXCEPTION'
+     * @return string 'UNKNOWN_EXCEPTION'
+     */
+    const VALUE_UNKNOWN_EXCEPTION = 'UNKNOWN_EXCEPTION';
+    /**
+     * Constant for value 'UNKNOWN_TOKEN_ERROR'
+     * @return string 'UNKNOWN_TOKEN_ERROR'
+     */
+    const VALUE_UNKNOWN_TOKEN_ERROR = 'UNKNOWN_TOKEN_ERROR';
+    /**
+     * Constant for value 'UNSAFE_HTML_CONTENT'
+     * @return string 'UNSAFE_HTML_CONTENT'
+     */
+    const VALUE_UNSAFE_HTML_CONTENT = 'UNSAFE_HTML_CONTENT';
+    /**
+     * Constant for value 'UNSPECIFIED_EMAIL_ADDRESS'
+     * @return string 'UNSPECIFIED_EMAIL_ADDRESS'
+     */
+    const VALUE_UNSPECIFIED_EMAIL_ADDRESS = 'UNSPECIFIED_EMAIL_ADDRESS';
+    /**
+     * Constant for value 'UNSUPPORTED_APEX_TRIGGER_OPERATON'
+     * @return string 'UNSUPPORTED_APEX_TRIGGER_OPERATON'
+     */
+    const VALUE_UNSUPPORTED_APEX_TRIGGER_OPERATON = 'UNSUPPORTED_APEX_TRIGGER_OPERATON';
+    /**
+     * Constant for value 'UNSUPPORTED_SOCIAL_PROVIDER'
+     * @return string 'UNSUPPORTED_SOCIAL_PROVIDER'
+     */
+    const VALUE_UNSUPPORTED_SOCIAL_PROVIDER = 'UNSUPPORTED_SOCIAL_PROVIDER';
+    /**
+     * Constant for value 'UNVERIFIED_SENDER_ADDRESS'
+     * @return string 'UNVERIFIED_SENDER_ADDRESS'
+     */
+    const VALUE_UNVERIFIED_SENDER_ADDRESS = 'UNVERIFIED_SENDER_ADDRESS';
+    /**
+     * Constant for value 'UPDATE_GOOGLE_EMAIL_LABEL_FAILED'
+     * @return string 'UPDATE_GOOGLE_EMAIL_LABEL_FAILED'
+     */
+    const VALUE_UPDATE_GOOGLE_EMAIL_LABEL_FAILED = 'UPDATE_GOOGLE_EMAIL_LABEL_FAILED';
+    /**
+     * Constant for value 'USER_OWNS_PORTAL_ACCOUNT_EXCEPTION'
+     * @return string 'USER_OWNS_PORTAL_ACCOUNT_EXCEPTION'
+     */
+    const VALUE_USER_OWNS_PORTAL_ACCOUNT_EXCEPTION = 'USER_OWNS_PORTAL_ACCOUNT_EXCEPTION';
+    /**
+     * Constant for value 'USER_WITH_APEX_SHARES_EXCEPTION'
+     * @return string 'USER_WITH_APEX_SHARES_EXCEPTION'
+     */
+    const VALUE_USER_WITH_APEX_SHARES_EXCEPTION = 'USER_WITH_APEX_SHARES_EXCEPTION';
+    /**
+     * Constant for value 'VF_COMPILE_ERROR'
+     * @return string 'VF_COMPILE_ERROR'
+     */
+    const VALUE_VF_COMPILE_ERROR = 'VF_COMPILE_ERROR';
+    /**
+     * Constant for value 'WEBLINK_SIZE_LIMIT_EXCEEDED'
+     * @return string 'WEBLINK_SIZE_LIMIT_EXCEEDED'
+     */
+    const VALUE_WEBLINK_SIZE_LIMIT_EXCEEDED = 'WEBLINK_SIZE_LIMIT_EXCEEDED';
+    /**
+     * Constant for value 'WEBLINK_URL_INVALID'
+     * @return string 'WEBLINK_URL_INVALID'
+     */
+    const VALUE_WEBLINK_URL_INVALID = 'WEBLINK_URL_INVALID';
+    /**
+     * Constant for value 'WRONG_CONTROLLER_TYPE'
+     * @return string 'WRONG_CONTROLLER_TYPE'
+     */
+    const VALUE_WRONG_CONTROLLER_TYPE = 'WRONG_CONTROLLER_TYPE';
+    /**
+     * Constant for value 'XCLEAN_DJ_MATCH_IGNORABLE_ERROR'
+     * @return string 'XCLEAN_DJ_MATCH_IGNORABLE_ERROR'
+     */
+    const VALUE_XCLEAN_DJ_MATCH_IGNORABLE_ERROR = 'XCLEAN_DJ_MATCH_IGNORABLE_ERROR';
+    /**
+     * Constant for value 'XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR'
+     * @return string 'XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR'
+     */
+    const VALUE_XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR = 'XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR';
+    /**
+     * Constant for value 'XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR'
+     * @return string 'XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR'
+     */
+    const VALUE_XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR = 'XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR';
+    /**
+     * Constant for value 'XCLEAN_DJ_MATCH_RETRIABLE_ERROR'
+     * @return string 'XCLEAN_DJ_MATCH_RETRIABLE_ERROR'
+     */
+    const VALUE_XCLEAN_DJ_MATCH_RETRIABLE_ERROR = 'XCLEAN_DJ_MATCH_RETRIABLE_ERROR';
+    /**
+     * Constant for value 'XCLEAN_DJ_MATCH_UNKNOWN_ERROR'
+     * @return string 'XCLEAN_DJ_MATCH_UNKNOWN_ERROR'
+     */
+    const VALUE_XCLEAN_DJ_MATCH_UNKNOWN_ERROR = 'XCLEAN_DJ_MATCH_UNKNOWN_ERROR';
+    /**
+     * Constant for value 'XCLEAN_UNEXPECTED_ERROR'
+     * @return string 'XCLEAN_UNEXPECTED_ERROR'
+     */
+    const VALUE_XCLEAN_UNEXPECTED_ERROR = 'XCLEAN_UNEXPECTED_ERROR';
+    /**
+     * Return true if value is allowed
+     * @uses self::getValidValues()
+     * @param mixed $value value
+     * @return bool true|false
+     */
+    public static function valueIsValid($value)
+    {
+        return ($value === null) || in_array($value, self::getValidValues(), true);
+    }
+    /**
+     * Return allowed values
+     * @uses self::VALUE_ALL_OR_NONE_OPERATION_ROLLED_BACK
+     * @uses self::VALUE_ALREADY_IN_PROCESS
+     * @uses self::VALUE_APEX_DATA_ACCESS_RESTRICTION
+     * @uses self::VALUE_ASSIGNEE_TYPE_REQUIRED
+     * @uses self::VALUE_AURA_COMPILE_ERROR
+     * @uses self::VALUE_AUTH_PROVIDER_NEEDS_AUTH
+     * @uses self::VALUE_AUTH_PROVIDER_NOT_FOUND
+     * @uses self::VALUE_BAD_CUSTOM_ENTITY_PARENT_DOMAIN
+     * @uses self::VALUE_BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED
+     * @uses self::VALUE_CANNOT_CASCADE_PRODUCT_ACTIVE
+     * @uses self::VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD
+     * @uses self::VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD
+     * @uses self::VALUE_CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE
+     * @uses self::VALUE_CANNOT_DEACTIVATE_DIVISION
+     * @uses self::VALUE_CANNOT_DELETE_GLOBAL_ACTION_LIST
+     * @uses self::VALUE_CANNOT_DELETE_LAST_DATED_CONVERSION_RATE
+     * @uses self::VALUE_CANNOT_DELETE_MANAGED_OBJECT
+     * @uses self::VALUE_CANNOT_DISABLE_LAST_ADMIN
+     * @uses self::VALUE_CANNOT_ENABLE_IP_RESTRICT_REQUESTS
+     * @uses self::VALUE_CANNOT_EXECUTE_FLOW_TRIGGER
+     * @uses self::VALUE_CANNOT_FREEZE_SELF
+     * @uses self::VALUE_CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY
+     * @uses self::VALUE_CANNOT_MODIFY_MANAGED_OBJECT
+     * @uses self::VALUE_CANNOT_PASSWORD_LOCKOUT
+     * @uses self::VALUE_CANNOT_POST_TO_ARCHIVED_GROUP
+     * @uses self::VALUE_CANNOT_RENAME_APEX_REFERENCED_FIELD
+     * @uses self::VALUE_CANNOT_RENAME_APEX_REFERENCED_OBJECT
+     * @uses self::VALUE_CANNOT_RENAME_REFERENCED_FIELD
+     * @uses self::VALUE_CANNOT_RENAME_REFERENCED_OBJECT
+     * @uses self::VALUE_CANNOT_REPARENT_RECORD
+     * @uses self::VALUE_CANNOT_UPDATE_CONVERTED_LEAD
+     * @uses self::VALUE_CANT_DISABLE_CORP_CURRENCY
+     * @uses self::VALUE_CANT_UNSET_CORP_CURRENCY
+     * @uses self::VALUE_CHILD_SHARE_FAILS_PARENT
+     * @uses self::VALUE_CIRCULAR_DEPENDENCY
+     * @uses self::VALUE_CLEAN_SERVICE_ERROR
+     * @uses self::VALUE_CLONE_FIELD_INTEGRITY_EXCEPTION
+     * @uses self::VALUE_CLONE_NOT_SUPPORTED
+     * @uses self::VALUE_COLLISION_DETECTED
+     * @uses self::VALUE_COMMERCIAL_CONTROL_ERROR
+     * @uses self::VALUE_COMMUNITY_NOT_ACCESSIBLE
+     * @uses self::VALUE_CONFLICTING_ENVIRONMENT_HUB_MEMBER
+     * @uses self::VALUE_CONFLICTING_SSO_USER_MAPPING
+     * @uses self::VALUE_CONTENT_TYPE_NOT_FOUND
+     * @uses self::VALUE_CUSTOM_APEX_ERROR
+     * @uses self::VALUE_CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED
+     * @uses self::VALUE_CUSTOM_ENTITY_OR_FIELD_LIMIT
+     * @uses self::VALUE_CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED
+     * @uses self::VALUE_CUSTOM_INDEX_EXISTS
+     * @uses self::VALUE_CUSTOM_LINK_LIMIT_EXCEEDED
+     * @uses self::VALUE_CUSTOM_METADATA_LIMIT_EXCEEDED
+     * @uses self::VALUE_CUSTOM_METADATA_REL_FIELD_MANAGEABILITY
+     * @uses self::VALUE_CUSTOM_SETTINGS_LIMIT_EXCEEDED
+     * @uses self::VALUE_CUSTOM_TAB_LIMIT_EXCEEDED
+     * @uses self::VALUE_DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR
+     * @uses self::VALUE_DATAASSESSMENT_CONFIG_SERVICE_ERROR
+     * @uses self::VALUE_DATACLOUDADDRESS_NO_RECORDS_FOUND
+     * @uses self::VALUE_DATACLOUDADDRESS_PROCESSING_ERROR
+     * @uses self::VALUE_DATACLOUDADDRESS_SERVER_ERROR
+     * @uses self::VALUE_DELETE_FAILED
+     * @uses self::VALUE_DELETE_NOT_ALLOWED
+     * @uses self::VALUE_DELETE_OPERATION_TOO_LARGE
+     * @uses self::VALUE_DELETE_REQUIRED_ON_CASCADE
+     * @uses self::VALUE_DEPENDENCY_EXISTS
+     * @uses self::VALUE_DUPLICATES_DETECTED
+     * @uses self::VALUE_DUPLICATE_CASE_SOLUTION
+     * @uses self::VALUE_DUPLICATE_COMM_NICKNAME
+     * @uses self::VALUE_DUPLICATE_CUSTOM_ENTITY_DEFINITION
+     * @uses self::VALUE_DUPLICATE_CUSTOM_TAB_MOTIF
+     * @uses self::VALUE_DUPLICATE_DEVELOPER_NAME
+     * @uses self::VALUE_DUPLICATE_EXTERNAL_ID
+     * @uses self::VALUE_DUPLICATE_MASTER_LABEL
+     * @uses self::VALUE_DUPLICATE_SENDER_DISPLAY_NAME
+     * @uses self::VALUE_DUPLICATE_USERNAME
+     * @uses self::VALUE_DUPLICATE_VALUE
+     * @uses self::VALUE_EMAIL_ADDRESS_BOUNCED
+     * @uses self::VALUE_EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR
+     * @uses self::VALUE_EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR
+     * @uses self::VALUE_EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR
+     * @uses self::VALUE_EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR
+     * @uses self::VALUE_EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR
+     * @uses self::VALUE_EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR
+     * @uses self::VALUE_EMAIL_OPTED_OUT
+     * @uses self::VALUE_EMAIL_TEMPLATE_FORMULA_ERROR
+     * @uses self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR
+     * @uses self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_ERROR
+     * @uses self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR
+     * @uses self::VALUE_EMAIL_TEMPLATE_PROCESSING_ERROR
+     * @uses self::VALUE_EMPTY_SCONTROL_FILE_NAME
+     * @uses self::VALUE_ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR
+     * @uses self::VALUE_ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE
+     * @uses self::VALUE_ENTITY_IS_ARCHIVED
+     * @uses self::VALUE_ENTITY_IS_DELETED
+     * @uses self::VALUE_ENTITY_IS_LOCKED
+     * @uses self::VALUE_ENTITY_SAVE_ERROR
+     * @uses self::VALUE_ENTITY_SAVE_VALIDATION_ERROR
+     * @uses self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT
+     * @uses self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB
+     * @uses self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB
+     * @uses self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN
+     * @uses self::VALUE_ERROR_IN_MAILER
+     * @uses self::VALUE_EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE
+     * @uses self::VALUE_EXCHANGE_WEB_SERVICES_URL_INVALID
+     * @uses self::VALUE_EXTERNAL_RESOURCE_FORBIDDEN
+     * @uses self::VALUE_FAILED_ACTIVATION
+     * @uses self::VALUE_FIELD_CUSTOM_VALIDATION_EXCEPTION
+     * @uses self::VALUE_FIELD_FILTER_VALIDATION_EXCEPTION
+     * @uses self::VALUE_FIELD_INTEGRITY_EXCEPTION
+     * @uses self::VALUE_FIELD_KEYWORD_LIST_MATCH_LIMIT
+     * @uses self::VALUE_FIELD_MAPPING_ERROR
+     * @uses self::VALUE_FIELD_MODERATION_RULE_BLOCK
+     * @uses self::VALUE_FIELD_NOT_UPDATABLE
+     * @uses self::VALUE_FILE_EXTENSION_NOT_ALLOWED
+     * @uses self::VALUE_FILE_SIZE_LIMIT_EXCEEDED
+     * @uses self::VALUE_FILTERED_LOOKUP_LIMIT_EXCEEDED
+     * @uses self::VALUE_FIND_DUPLICATES_ERROR
+     * @uses self::VALUE_FLOW_EXCEPTION
+     * @uses self::VALUE_FUNCTIONALITY_NOT_ENABLED
+     * @uses self::VALUE_HAS_PUBLIC_REFERENCES
+     * @uses self::VALUE_HTML_FILE_UPLOAD_NOT_ALLOWED
+     * @uses self::VALUE_IMAGE_TOO_LARGE
+     * @uses self::VALUE_INACTIVE_OWNER_OR_USER
+     * @uses self::VALUE_INACTIVE_RULE_ERROR
+     * @uses self::VALUE_INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE
+     * @uses self::VALUE_INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY
+     * @uses self::VALUE_INSUFFICIENT_ACCESS_OR_READONLY
+     * @uses self::VALUE_INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA
+     * @uses self::VALUE_INSUFFICIENT_CREDITS
+     * @uses self::VALUE_INTERNAL_ERROR
+     * @uses self::VALUE_INVALID_ACCESS_LEVEL
+     * @uses self::VALUE_INVALID_ACCESS_TOKEN
+     * @uses self::VALUE_INVALID_API_INPUT
+     * @uses self::VALUE_INVALID_ARGUMENT_TYPE
+     * @uses self::VALUE_INVALID_ASSIGNEE_TYPE
+     * @uses self::VALUE_INVALID_ASSIGNMENT_RULE
+     * @uses self::VALUE_INVALID_AUTH_HEADER
+     * @uses self::VALUE_INVALID_BATCH_OPERATION
+     * @uses self::VALUE_INVALID_CONTENT_TYPE
+     * @uses self::VALUE_INVALID_CREDIT_CARD_INFO
+     * @uses self::VALUE_INVALID_CROSS_REFERENCE_KEY
+     * @uses self::VALUE_INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD
+     * @uses self::VALUE_INVALID_CURRENCY_CONV_RATE
+     * @uses self::VALUE_INVALID_CURRENCY_CORP_RATE
+     * @uses self::VALUE_INVALID_CURRENCY_ISO
+     * @uses self::VALUE_INVALID_DATASET_REFERENCE_INPUT
+     * @uses self::VALUE_INVALID_DATA_CATEGORY_GROUP_REFERENCE
+     * @uses self::VALUE_INVALID_DATA_URI
+     * @uses self::VALUE_INVALID_EMAIL_ADDRESS
+     * @uses self::VALUE_INVALID_EMPTY_KEY_OWNER
+     * @uses self::VALUE_INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR
+     * @uses self::VALUE_INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR
+     * @uses self::VALUE_INVALID_ENTITY_FOR_UPSERT
+     * @uses self::VALUE_INVALID_ENVIRONMENT_HUB_MEMBER
+     * @uses self::VALUE_INVALID_EVENT_DELIVERY
+     * @uses self::VALUE_INVALID_EVENT_INPUT
+     * @uses self::VALUE_INVALID_EVENT_SUBSCRIPTION
+     * @uses self::VALUE_INVALID_EXTENSION_ID
+     * @uses self::VALUE_INVALID_FIELD
+     * @uses self::VALUE_INVALID_FIELD_FOR_INSERT_UPDATE
+     * @uses self::VALUE_INVALID_FIELD_WHEN_USING_TEMPLATE
+     * @uses self::VALUE_INVALID_FILTER_ACTION
+     * @uses self::VALUE_INVALID_GOOGLE_DOCS_URL
+     * @uses self::VALUE_INVALID_ID_FIELD
+     * @uses self::VALUE_INVALID_INET_ADDRESS
+     * @uses self::VALUE_INVALID_INPUT
+     * @uses self::VALUE_INVALID_KEY_FIELD_INPUT
+     * @uses self::VALUE_INVALID_LINEITEM_CLONE_STATE
+     * @uses self::VALUE_INVALID_MARKUP
+     * @uses self::VALUE_INVALID_MASTER_OR_TRANSLATED_SOLUTION
+     * @uses self::VALUE_INVALID_MESSAGE_ID_REFERENCE
+     * @uses self::VALUE_INVALID_NAMESPACE_PREFIX
+     * @uses self::VALUE_INVALID_OAUTH_URL
+     * @uses self::VALUE_INVALID_OPERATION
+     * @uses self::VALUE_INVALID_OPERATOR
+     * @uses self::VALUE_INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST
+     * @uses self::VALUE_INVALID_OWNER
+     * @uses self::VALUE_INVALID_PACKAGE_LICENSE
+     * @uses self::VALUE_INVALID_PACKAGE_VERSION
+     * @uses self::VALUE_INVALID_PARTNER_NETWORK_STATUS
+     * @uses self::VALUE_INVALID_PAYLOAD_VERSION
+     * @uses self::VALUE_INVALID_PERSON_ACCOUNT_OPERATION
+     * @uses self::VALUE_INVALID_PROVIDER_TYPE
+     * @uses self::VALUE_INVALID_QUERY_KEY
+     * @uses self::VALUE_INVALID_QUERY_LOCATOR
+     * @uses self::VALUE_INVALID_QUERY_VALUE
+     * @uses self::VALUE_INVALID_READ_ONLY_USER_DML
+     * @uses self::VALUE_INVALID_REFRESH_TOKEN
+     * @uses self::VALUE_INVALID_REQUEST_STATE
+     * @uses self::VALUE_INVALID_RUNTIME_VALUE
+     * @uses self::VALUE_INVALID_SAVE_AS_ACTIVITY_FLAG
+     * @uses self::VALUE_INVALID_SCS_INBOUND_USER
+     * @uses self::VALUE_INVALID_SESSION_ID
+     * @uses self::VALUE_INVALID_SETUP_OWNER
+     * @uses self::VALUE_INVALID_SIGNUP_COUNTRY
+     * @uses self::VALUE_INVALID_SIGNUP_OPTION
+     * @uses self::VALUE_INVALID_SITE_DELETE_EXCEPTION
+     * @uses self::VALUE_INVALID_SITE_FILE_IMPORTED_EXCEPTION
+     * @uses self::VALUE_INVALID_SITE_FILE_TYPE_EXCEPTION
+     * @uses self::VALUE_INVALID_STATUS
+     * @uses self::VALUE_INVALID_SUBDOMAIN
+     * @uses self::VALUE_INVALID_TEXT_REPRESENTATION
+     * @uses self::VALUE_INVALID_TYPE
+     * @uses self::VALUE_INVALID_TYPE_FOR_OPERATION
+     * @uses self::VALUE_INVALID_TYPE_ON_FIELD_IN_RECORD
+     * @uses self::VALUE_INVALID_USERID
+     * @uses self::VALUE_IP_RANGE_LIMIT_EXCEEDED
+     * @uses self::VALUE_ITEM_NOT_FOUND
+     * @uses self::VALUE_JIGSAW_IMPORT_LIMIT_EXCEEDED
+     * @uses self::VALUE_LICENSE_LIMIT_EXCEEDED
+     * @uses self::VALUE_LIGHT_PORTAL_USER_EXCEPTION
+     * @uses self::VALUE_LIMIT_EXCEEDED
+     * @uses self::VALUE_MALFORMED_ID
+     * @uses self::VALUE_MANAGER_NOT_DEFINED
+     * @uses self::VALUE_MASSMAIL_RETRY_LIMIT_EXCEEDED
+     * @uses self::VALUE_MASS_MAIL_LIMIT_EXCEEDED
+     * @uses self::VALUE_MATCH_DEFINITION_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_INVALID_ENGINE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_INVALID_RULE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_MISSING_ENGINE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_MISSING_OPTIONS_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_MISSING_RULE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_UNKNOWN_RULE_ERROR
+     * @uses self::VALUE_MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR
+     * @uses self::VALUE_MATCH_PRECONDITION_FAILED
+     * @uses self::VALUE_MATCH_RUNTIME_ERROR
+     * @uses self::VALUE_MATCH_SERVICE_ERROR
+     * @uses self::VALUE_MATCH_SERVICE_TIMED_OUT
+     * @uses self::VALUE_MATCH_SERVICE_UNAVAILABLE_ERROR
+     * @uses self::VALUE_MAXIMUM_CCEMAILS_EXCEEDED
+     * @uses self::VALUE_MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED
+     * @uses self::VALUE_MAXIMUM_HIERARCHY_CHILDREN_REACHED
+     * @uses self::VALUE_MAXIMUM_HIERARCHY_LEVELS_REACHED
+     * @uses self::VALUE_MAXIMUM_HIERARCHY_TREE_SIZE_REACHED
+     * @uses self::VALUE_MAXIMUM_SIZE_OF_ATTACHMENT
+     * @uses self::VALUE_MAXIMUM_SIZE_OF_DOCUMENT
+     * @uses self::VALUE_MAX_ACTIONS_PER_RULE_EXCEEDED
+     * @uses self::VALUE_MAX_ACTIVE_RULES_EXCEEDED
+     * @uses self::VALUE_MAX_APPROVAL_STEPS_EXCEEDED
+     * @uses self::VALUE_MAX_DEPTH_IN_FLOW_EXECUTION
+     * @uses self::VALUE_MAX_FORMULAS_PER_RULE_EXCEEDED
+     * @uses self::VALUE_MAX_LIMIT_EXCEEDED
+     * @uses self::VALUE_MAX_RULES_EXCEEDED
+     * @uses self::VALUE_MAX_RULE_ENTRIES_EXCEEDED
+     * @uses self::VALUE_MAX_TASK_DESCRIPTION_EXCEEEDED
+     * @uses self::VALUE_MAX_TM_RULES_EXCEEDED
+     * @uses self::VALUE_MAX_TM_RULE_ITEMS_EXCEEDED
+     * @uses self::VALUE_MAX_TRIGGERS_EXCEEDED
+     * @uses self::VALUE_MERGE_FAILED
+     * @uses self::VALUE_METADATA_FIELD_UPDATE_ERROR
+     * @uses self::VALUE_MISSING_ARGUMENT
+     * @uses self::VALUE_MISSING_RECORD
+     * @uses self::VALUE_MIXED_DML_OPERATION
+     * @uses self::VALUE_NONUNIQUE_SHIPPING_ADDRESS
+     * @uses self::VALUE_NO_ACCESS_TOKEN
+     * @uses self::VALUE_NO_ACCESS_TOKEN_FROM_REFRESH
+     * @uses self::VALUE_NO_APPLICABLE_PROCESS
+     * @uses self::VALUE_NO_ATTACHMENT_PERMISSION
+     * @uses self::VALUE_NO_AUTH_PROVIDER
+     * @uses self::VALUE_NO_INACTIVE_DIVISION_MEMBERS
+     * @uses self::VALUE_NO_MASS_MAIL_PERMISSION
+     * @uses self::VALUE_NO_PARTNER_PERMISSION
+     * @uses self::VALUE_NO_REFRESH_TOKEN
+     * @uses self::VALUE_NO_SUCH_USER_EXISTS
+     * @uses self::VALUE_NO_TOKEN_ENDPOINT
+     * @uses self::VALUE_NUMBER_OUTSIDE_VALID_RANGE
+     * @uses self::VALUE_NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED
+     * @uses self::VALUE_OPERATION_ENQUEUED
+     * @uses self::VALUE_OPTED_OUT_OF_MASS_MAIL
+     * @uses self::VALUE_OP_WITH_INVALID_USER_TYPE_EXCEPTION
+     * @uses self::VALUE_ORCHESTRATION_INVALID
+     * @uses self::VALUE_ORDER_MANAGEMENT_ACTION_NOT_ALLOWED
+     * @uses self::VALUE_ORDER_MANAGEMENT_RECORD_EXISTS
+     * @uses self::VALUE_ORDER_MANAGEMENT_RECORD_NOT_FOUND
+     * @uses self::VALUE_PACKAGE_DISABLED
+     * @uses self::VALUE_PACKAGE_LICENSE_REQUIRED
+     * @uses self::VALUE_PACKAGING_API_INSTALL_FAILED
+     * @uses self::VALUE_PACKAGING_API_UNINSTALL_FAILED
+     * @uses self::VALUE_PALI_INVALID_ACTION_ID
+     * @uses self::VALUE_PALI_INVALID_ACTION_NAME
+     * @uses self::VALUE_PALI_INVALID_ACTION_TYPE
+     * @uses self::VALUE_PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID
+     * @uses self::VALUE_PAL_INVALID_ENTITY_ID
+     * @uses self::VALUE_PAL_INVALID_FLEXIPAGE_ID
+     * @uses self::VALUE_PAL_INVALID_LAYOUT_ID
+     * @uses self::VALUE_PAL_INVALID_PARAMETERS
+     * @uses self::VALUE_PAYLOAD_SIZE_EXCEEDED
+     * @uses self::VALUE_PA_API_EXCEPTION
+     * @uses self::VALUE_PA_AXIS_FAULT
+     * @uses self::VALUE_PA_INVALID_ID_EXCEPTION
+     * @uses self::VALUE_PA_NO_ACCESS_EXCEPTION
+     * @uses self::VALUE_PA_NO_DATA_FOUND_EXCEPTION
+     * @uses self::VALUE_PA_URI_SYNTAX_EXCEPTION
+     * @uses self::VALUE_PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION
+     * @uses self::VALUE_PLATFORM_EVENT_ENCRYPTION_ERROR
+     * @uses self::VALUE_PLATFORM_EVENT_PUBLISHING_UNAVAILABLE
+     * @uses self::VALUE_PLATFORM_EVENT_PUBLISH_FAILED
+     * @uses self::VALUE_PORTAL_NO_ACCESS
+     * @uses self::VALUE_PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT
+     * @uses self::VALUE_PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION
+     * @uses self::VALUE_PRICE_NOT_FOUND
+     * @uses self::VALUE_PRIVATE_CONTACT_ON_ASSET
+     * @uses self::VALUE_PROCESSING_HALTED
+     * @uses self::VALUE_QA_INVALID_CREATE_FEED_ITEM
+     * @uses self::VALUE_QA_INVALID_SUCCESS_MESSAGE
+     * @uses self::VALUE_QUERY_TIMEOUT
+     * @uses self::VALUE_QUICK_ACTION_LIST_ITEM_NOT_ALLOWED
+     * @uses self::VALUE_QUICK_ACTION_LIST_NOT_ALLOWED
+     * @uses self::VALUE_RECORD_IN_USE_BY_WORKFLOW
+     * @uses self::VALUE_RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION
+     * @uses self::VALUE_REL_FIELD_BAD_ACCESSIBILITY
+     * @uses self::VALUE_REPUTATION_MINIMUM_NUMBER_NOT_REACHED
+     * @uses self::VALUE_REQUEST_RUNNING_TOO_LONG
+     * @uses self::VALUE_REQUIRED_FEATURE_MISSING
+     * @uses self::VALUE_REQUIRED_FIELD_MISSING
+     * @uses self::VALUE_REQUIRE_CONNECTED_APP_SCS
+     * @uses self::VALUE_REQUIRE_CONNECTED_APP_SESSION_SCS
+     * @uses self::VALUE_REQUIRE_RUNAS_USER
+     * @uses self::VALUE_RETRIEVE_EXCHANGE_ATTACHMENT_FAILED
+     * @uses self::VALUE_RETRIEVE_EXCHANGE_EMAIL_FAILED
+     * @uses self::VALUE_RETRIEVE_EXCHANGE_EVENT_FAILED
+     * @uses self::VALUE_RETRIEVE_GOOGLE_EMAIL_FAILED
+     * @uses self::VALUE_RETRIEVE_GOOGLE_EVENT_FAILED
+     * @uses self::VALUE_RETRIEVE_USER_CONFIG_ERROR
+     * @uses self::VALUE_SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR
+     * @uses self::VALUE_SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR
+     * @uses self::VALUE_SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR
+     * @uses self::VALUE_SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR
+     * @uses self::VALUE_SELF_REFERENCE_FROM_FLOW
+     * @uses self::VALUE_SELF_REFERENCE_FROM_TRIGGER
+     * @uses self::VALUE_SHARE_NEEDED_FOR_CHILD_OWNER
+     * @uses self::VALUE_SINGLE_EMAIL_LIMIT_EXCEEDED
+     * @uses self::VALUE_SOCIAL_ACCOUNT_NOT_FOUND
+     * @uses self::VALUE_SOCIAL_ACTION_INVALID
+     * @uses self::VALUE_SOCIAL_PERSONA_NOT_FOUND
+     * @uses self::VALUE_SOCIAL_POST_INVALID
+     * @uses self::VALUE_SOCIAL_POST_NOT_FOUND
+     * @uses self::VALUE_STANDARD_PRICE_NOT_DEFINED
+     * @uses self::VALUE_STORAGE_LIMIT_EXCEEDED
+     * @uses self::VALUE_STRING_TOO_LONG
+     * @uses self::VALUE_SUBDOMAIN_IN_USE
+     * @uses self::VALUE_TABSET_LIMIT_EXCEEDED
+     * @uses self::VALUE_TEMPLATE_NOT_ACTIVE
+     * @uses self::VALUE_TEMPLATE_NOT_FOUND
+     * @uses self::VALUE_TERMS_OF_SERVICE_UNREAD
+     * @uses self::VALUE_TERRITORY_REALIGN_IN_PROGRESS
+     * @uses self::VALUE_TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET
+     * @uses self::VALUE_TOO_MANY_APEX_REQUESTS
+     * @uses self::VALUE_TOO_MANY_ENUM_VALUE
+     * @uses self::VALUE_TOO_MANY_JOBS
+     * @uses self::VALUE_TOO_MANY_POSSIBLE_USERS_EXIST
+     * @uses self::VALUE_TRANSFER_REQUIRES_READ
+     * @uses self::VALUE_UNABLE_TO_LOCK_ROW
+     * @uses self::VALUE_UNAVAILABLE_RECORDTYPE_EXCEPTION
+     * @uses self::VALUE_UNAVAILABLE_REF
+     * @uses self::VALUE_UNDELETE_FAILED
+     * @uses self::VALUE_UNKNOWN_EXCEPTION
+     * @uses self::VALUE_UNKNOWN_TOKEN_ERROR
+     * @uses self::VALUE_UNSAFE_HTML_CONTENT
+     * @uses self::VALUE_UNSPECIFIED_EMAIL_ADDRESS
+     * @uses self::VALUE_UNSUPPORTED_APEX_TRIGGER_OPERATON
+     * @uses self::VALUE_UNSUPPORTED_SOCIAL_PROVIDER
+     * @uses self::VALUE_UNVERIFIED_SENDER_ADDRESS
+     * @uses self::VALUE_UPDATE_GOOGLE_EMAIL_LABEL_FAILED
+     * @uses self::VALUE_USER_OWNS_PORTAL_ACCOUNT_EXCEPTION
+     * @uses self::VALUE_USER_WITH_APEX_SHARES_EXCEPTION
+     * @uses self::VALUE_VF_COMPILE_ERROR
+     * @uses self::VALUE_WEBLINK_SIZE_LIMIT_EXCEEDED
+     * @uses self::VALUE_WEBLINK_URL_INVALID
+     * @uses self::VALUE_WRONG_CONTROLLER_TYPE
+     * @uses self::VALUE_XCLEAN_DJ_MATCH_IGNORABLE_ERROR
+     * @uses self::VALUE_XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR
+     * @uses self::VALUE_XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR
+     * @uses self::VALUE_XCLEAN_DJ_MATCH_RETRIABLE_ERROR
+     * @uses self::VALUE_XCLEAN_DJ_MATCH_UNKNOWN_ERROR
+     * @uses self::VALUE_XCLEAN_UNEXPECTED_ERROR
+     * @return string[]
+     */
+    public static function getValidValues()
+    {
+        return array(
+            self::VALUE_ALL_OR_NONE_OPERATION_ROLLED_BACK,
+            self::VALUE_ALREADY_IN_PROCESS,
+            self::VALUE_APEX_DATA_ACCESS_RESTRICTION,
+            self::VALUE_ASSIGNEE_TYPE_REQUIRED,
+            self::VALUE_AURA_COMPILE_ERROR,
+            self::VALUE_AUTH_PROVIDER_NEEDS_AUTH,
+            self::VALUE_AUTH_PROVIDER_NOT_FOUND,
+            self::VALUE_BAD_CUSTOM_ENTITY_PARENT_DOMAIN,
+            self::VALUE_BCC_NOT_ALLOWED_IF_BCC_COMPLIANCE_ENABLED,
+            self::VALUE_CANNOT_CASCADE_PRODUCT_ACTIVE,
+            self::VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_APEX_REFERENCED_FIELD,
+            self::VALUE_CANNOT_CHANGE_FIELD_TYPE_OF_REFERENCED_FIELD,
+            self::VALUE_CANNOT_CREATE_ANOTHER_MANAGED_PACKAGE,
+            self::VALUE_CANNOT_DEACTIVATE_DIVISION,
+            self::VALUE_CANNOT_DELETE_GLOBAL_ACTION_LIST,
+            self::VALUE_CANNOT_DELETE_LAST_DATED_CONVERSION_RATE,
+            self::VALUE_CANNOT_DELETE_MANAGED_OBJECT,
+            self::VALUE_CANNOT_DISABLE_LAST_ADMIN,
+            self::VALUE_CANNOT_ENABLE_IP_RESTRICT_REQUESTS,
+            self::VALUE_CANNOT_EXECUTE_FLOW_TRIGGER,
+            self::VALUE_CANNOT_FREEZE_SELF,
+            self::VALUE_CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY,
+            self::VALUE_CANNOT_MODIFY_MANAGED_OBJECT,
+            self::VALUE_CANNOT_PASSWORD_LOCKOUT,
+            self::VALUE_CANNOT_POST_TO_ARCHIVED_GROUP,
+            self::VALUE_CANNOT_RENAME_APEX_REFERENCED_FIELD,
+            self::VALUE_CANNOT_RENAME_APEX_REFERENCED_OBJECT,
+            self::VALUE_CANNOT_RENAME_REFERENCED_FIELD,
+            self::VALUE_CANNOT_RENAME_REFERENCED_OBJECT,
+            self::VALUE_CANNOT_REPARENT_RECORD,
+            self::VALUE_CANNOT_UPDATE_CONVERTED_LEAD,
+            self::VALUE_CANT_DISABLE_CORP_CURRENCY,
+            self::VALUE_CANT_UNSET_CORP_CURRENCY,
+            self::VALUE_CHILD_SHARE_FAILS_PARENT,
+            self::VALUE_CIRCULAR_DEPENDENCY,
+            self::VALUE_CLEAN_SERVICE_ERROR,
+            self::VALUE_CLONE_FIELD_INTEGRITY_EXCEPTION,
+            self::VALUE_CLONE_NOT_SUPPORTED,
+            self::VALUE_COLLISION_DETECTED,
+            self::VALUE_COMMERCIAL_CONTROL_ERROR,
+            self::VALUE_COMMUNITY_NOT_ACCESSIBLE,
+            self::VALUE_CONFLICTING_ENVIRONMENT_HUB_MEMBER,
+            self::VALUE_CONFLICTING_SSO_USER_MAPPING,
+            self::VALUE_CONTENT_TYPE_NOT_FOUND,
+            self::VALUE_CUSTOM_APEX_ERROR,
+            self::VALUE_CUSTOM_CLOB_FIELD_LIMIT_EXCEEDED,
+            self::VALUE_CUSTOM_ENTITY_OR_FIELD_LIMIT,
+            self::VALUE_CUSTOM_FIELD_INDEX_LIMIT_EXCEEDED,
+            self::VALUE_CUSTOM_INDEX_EXISTS,
+            self::VALUE_CUSTOM_LINK_LIMIT_EXCEEDED,
+            self::VALUE_CUSTOM_METADATA_LIMIT_EXCEEDED,
+            self::VALUE_CUSTOM_METADATA_REL_FIELD_MANAGEABILITY,
+            self::VALUE_CUSTOM_SETTINGS_LIMIT_EXCEEDED,
+            self::VALUE_CUSTOM_TAB_LIMIT_EXCEEDED,
+            self::VALUE_DATAASSESSMENT_CONFIG_ASSESSMENT_IN_PROGRESS_ERROR,
+            self::VALUE_DATAASSESSMENT_CONFIG_SERVICE_ERROR,
+            self::VALUE_DATACLOUDADDRESS_NO_RECORDS_FOUND,
+            self::VALUE_DATACLOUDADDRESS_PROCESSING_ERROR,
+            self::VALUE_DATACLOUDADDRESS_SERVER_ERROR,
+            self::VALUE_DELETE_FAILED,
+            self::VALUE_DELETE_NOT_ALLOWED,
+            self::VALUE_DELETE_OPERATION_TOO_LARGE,
+            self::VALUE_DELETE_REQUIRED_ON_CASCADE,
+            self::VALUE_DEPENDENCY_EXISTS,
+            self::VALUE_DUPLICATES_DETECTED,
+            self::VALUE_DUPLICATE_CASE_SOLUTION,
+            self::VALUE_DUPLICATE_COMM_NICKNAME,
+            self::VALUE_DUPLICATE_CUSTOM_ENTITY_DEFINITION,
+            self::VALUE_DUPLICATE_CUSTOM_TAB_MOTIF,
+            self::VALUE_DUPLICATE_DEVELOPER_NAME,
+            self::VALUE_DUPLICATE_EXTERNAL_ID,
+            self::VALUE_DUPLICATE_MASTER_LABEL,
+            self::VALUE_DUPLICATE_SENDER_DISPLAY_NAME,
+            self::VALUE_DUPLICATE_USERNAME,
+            self::VALUE_DUPLICATE_VALUE,
+            self::VALUE_EMAIL_ADDRESS_BOUNCED,
+            self::VALUE_EMAIL_EXTERNAL_TRANSPORT_CONNECTION_ERROR,
+            self::VALUE_EMAIL_EXTERNAL_TRANSPORT_PERMISSION_ERROR,
+            self::VALUE_EMAIL_EXTERNAL_TRANSPORT_TOKEN_ERROR,
+            self::VALUE_EMAIL_EXTERNAL_TRANSPORT_TOO_MANY_REQUESTS_ERROR,
+            self::VALUE_EMAIL_EXTERNAL_TRANSPORT_UNKNOWN_ERROR,
+            self::VALUE_EMAIL_NOT_PROCESSED_DUE_TO_PRIOR_ERROR,
+            self::VALUE_EMAIL_OPTED_OUT,
+            self::VALUE_EMAIL_TEMPLATE_FORMULA_ERROR,
+            self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_ACCESS_ERROR,
+            self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_ERROR,
+            self::VALUE_EMAIL_TEMPLATE_MERGEFIELD_VALUE_ERROR,
+            self::VALUE_EMAIL_TEMPLATE_PROCESSING_ERROR,
+            self::VALUE_EMPTY_SCONTROL_FILE_NAME,
+            self::VALUE_ENHANCED_EMAIL_TEMPLATE_COMPILATION_ERROR,
+            self::VALUE_ENTITY_FAILED_IFLASTMODIFIED_ON_UPDATE,
+            self::VALUE_ENTITY_IS_ARCHIVED,
+            self::VALUE_ENTITY_IS_DELETED,
+            self::VALUE_ENTITY_IS_LOCKED,
+            self::VALUE_ENTITY_SAVE_ERROR,
+            self::VALUE_ENTITY_SAVE_VALIDATION_ERROR,
+            self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_CONFLICT,
+            self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_ERROR_JOINING_HUB,
+            self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_ALREADY_IN_HUB,
+            self::VALUE_ENVIRONMENT_HUB_MEMBERSHIP_USER_NOT_ORG_ADMIN,
+            self::VALUE_ERROR_IN_MAILER,
+            self::VALUE_EXCEEDED_MAX_SEMIJOIN_SUBSELECTS_WRITE,
+            self::VALUE_EXCHANGE_WEB_SERVICES_URL_INVALID,
+            self::VALUE_EXTERNAL_RESOURCE_FORBIDDEN,
+            self::VALUE_FAILED_ACTIVATION,
+            self::VALUE_FIELD_CUSTOM_VALIDATION_EXCEPTION,
+            self::VALUE_FIELD_FILTER_VALIDATION_EXCEPTION,
+            self::VALUE_FIELD_INTEGRITY_EXCEPTION,
+            self::VALUE_FIELD_KEYWORD_LIST_MATCH_LIMIT,
+            self::VALUE_FIELD_MAPPING_ERROR,
+            self::VALUE_FIELD_MODERATION_RULE_BLOCK,
+            self::VALUE_FIELD_NOT_UPDATABLE,
+            self::VALUE_FILE_EXTENSION_NOT_ALLOWED,
+            self::VALUE_FILE_SIZE_LIMIT_EXCEEDED,
+            self::VALUE_FILTERED_LOOKUP_LIMIT_EXCEEDED,
+            self::VALUE_FIND_DUPLICATES_ERROR,
+            self::VALUE_FLOW_EXCEPTION,
+            self::VALUE_FUNCTIONALITY_NOT_ENABLED,
+            self::VALUE_HAS_PUBLIC_REFERENCES,
+            self::VALUE_HTML_FILE_UPLOAD_NOT_ALLOWED,
+            self::VALUE_IMAGE_TOO_LARGE,
+            self::VALUE_INACTIVE_OWNER_OR_USER,
+            self::VALUE_INACTIVE_RULE_ERROR,
+            self::VALUE_INSERT_UPDATE_DELETE_NOT_ALLOWED_DURING_MAINTENANCE,
+            self::VALUE_INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY,
+            self::VALUE_INSUFFICIENT_ACCESS_OR_READONLY,
+            self::VALUE_INSUFFICIENT_ACCESS_TO_INSIGHTSEXTERNALDATA,
+            self::VALUE_INSUFFICIENT_CREDITS,
+            self::VALUE_INTERNAL_ERROR,
+            self::VALUE_INVALID_ACCESS_LEVEL,
+            self::VALUE_INVALID_ACCESS_TOKEN,
+            self::VALUE_INVALID_API_INPUT,
+            self::VALUE_INVALID_ARGUMENT_TYPE,
+            self::VALUE_INVALID_ASSIGNEE_TYPE,
+            self::VALUE_INVALID_ASSIGNMENT_RULE,
+            self::VALUE_INVALID_AUTH_HEADER,
+            self::VALUE_INVALID_BATCH_OPERATION,
+            self::VALUE_INVALID_CONTENT_TYPE,
+            self::VALUE_INVALID_CREDIT_CARD_INFO,
+            self::VALUE_INVALID_CROSS_REFERENCE_KEY,
+            self::VALUE_INVALID_CROSS_REFERENCE_TYPE_FOR_FIELD,
+            self::VALUE_INVALID_CURRENCY_CONV_RATE,
+            self::VALUE_INVALID_CURRENCY_CORP_RATE,
+            self::VALUE_INVALID_CURRENCY_ISO,
+            self::VALUE_INVALID_DATASET_REFERENCE_INPUT,
+            self::VALUE_INVALID_DATA_CATEGORY_GROUP_REFERENCE,
+            self::VALUE_INVALID_DATA_URI,
+            self::VALUE_INVALID_EMAIL_ADDRESS,
+            self::VALUE_INVALID_EMPTY_KEY_OWNER,
+            self::VALUE_INVALID_ENTITY_FOR_MATCH_ENGINE_ERROR,
+            self::VALUE_INVALID_ENTITY_FOR_MATCH_OPERATION_ERROR,
+            self::VALUE_INVALID_ENTITY_FOR_UPSERT,
+            self::VALUE_INVALID_ENVIRONMENT_HUB_MEMBER,
+            self::VALUE_INVALID_EVENT_DELIVERY,
+            self::VALUE_INVALID_EVENT_INPUT,
+            self::VALUE_INVALID_EVENT_SUBSCRIPTION,
+            self::VALUE_INVALID_EXTENSION_ID,
+            self::VALUE_INVALID_FIELD,
+            self::VALUE_INVALID_FIELD_FOR_INSERT_UPDATE,
+            self::VALUE_INVALID_FIELD_WHEN_USING_TEMPLATE,
+            self::VALUE_INVALID_FILTER_ACTION,
+            self::VALUE_INVALID_GOOGLE_DOCS_URL,
+            self::VALUE_INVALID_ID_FIELD,
+            self::VALUE_INVALID_INET_ADDRESS,
+            self::VALUE_INVALID_INPUT,
+            self::VALUE_INVALID_KEY_FIELD_INPUT,
+            self::VALUE_INVALID_LINEITEM_CLONE_STATE,
+            self::VALUE_INVALID_MARKUP,
+            self::VALUE_INVALID_MASTER_OR_TRANSLATED_SOLUTION,
+            self::VALUE_INVALID_MESSAGE_ID_REFERENCE,
+            self::VALUE_INVALID_NAMESPACE_PREFIX,
+            self::VALUE_INVALID_OAUTH_URL,
+            self::VALUE_INVALID_OPERATION,
+            self::VALUE_INVALID_OPERATOR,
+            self::VALUE_INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST,
+            self::VALUE_INVALID_OWNER,
+            self::VALUE_INVALID_PACKAGE_LICENSE,
+            self::VALUE_INVALID_PACKAGE_VERSION,
+            self::VALUE_INVALID_PARTNER_NETWORK_STATUS,
+            self::VALUE_INVALID_PAYLOAD_VERSION,
+            self::VALUE_INVALID_PERSON_ACCOUNT_OPERATION,
+            self::VALUE_INVALID_PROVIDER_TYPE,
+            self::VALUE_INVALID_QUERY_KEY,
+            self::VALUE_INVALID_QUERY_LOCATOR,
+            self::VALUE_INVALID_QUERY_VALUE,
+            self::VALUE_INVALID_READ_ONLY_USER_DML,
+            self::VALUE_INVALID_REFRESH_TOKEN,
+            self::VALUE_INVALID_REQUEST_STATE,
+            self::VALUE_INVALID_RUNTIME_VALUE,
+            self::VALUE_INVALID_SAVE_AS_ACTIVITY_FLAG,
+            self::VALUE_INVALID_SCS_INBOUND_USER,
+            self::VALUE_INVALID_SESSION_ID,
+            self::VALUE_INVALID_SETUP_OWNER,
+            self::VALUE_INVALID_SIGNUP_COUNTRY,
+            self::VALUE_INVALID_SIGNUP_OPTION,
+            self::VALUE_INVALID_SITE_DELETE_EXCEPTION,
+            self::VALUE_INVALID_SITE_FILE_IMPORTED_EXCEPTION,
+            self::VALUE_INVALID_SITE_FILE_TYPE_EXCEPTION,
+            self::VALUE_INVALID_STATUS,
+            self::VALUE_INVALID_SUBDOMAIN,
+            self::VALUE_INVALID_TEXT_REPRESENTATION,
+            self::VALUE_INVALID_TYPE,
+            self::VALUE_INVALID_TYPE_FOR_OPERATION,
+            self::VALUE_INVALID_TYPE_ON_FIELD_IN_RECORD,
+            self::VALUE_INVALID_USERID,
+            self::VALUE_IP_RANGE_LIMIT_EXCEEDED,
+            self::VALUE_ITEM_NOT_FOUND,
+            self::VALUE_JIGSAW_IMPORT_LIMIT_EXCEEDED,
+            self::VALUE_LICENSE_LIMIT_EXCEEDED,
+            self::VALUE_LIGHT_PORTAL_USER_EXCEPTION,
+            self::VALUE_LIMIT_EXCEEDED,
+            self::VALUE_MALFORMED_ID,
+            self::VALUE_MANAGER_NOT_DEFINED,
+            self::VALUE_MASSMAIL_RETRY_LIMIT_EXCEEDED,
+            self::VALUE_MASS_MAIL_LIMIT_EXCEEDED,
+            self::VALUE_MATCH_DEFINITION_ERROR,
+            self::VALUE_MATCH_OPERATION_ERROR,
+            self::VALUE_MATCH_OPERATION_INVALID_ENGINE_ERROR,
+            self::VALUE_MATCH_OPERATION_INVALID_RULE_ERROR,
+            self::VALUE_MATCH_OPERATION_MISSING_ENGINE_ERROR,
+            self::VALUE_MATCH_OPERATION_MISSING_OBJECT_TYPE_ERROR,
+            self::VALUE_MATCH_OPERATION_MISSING_OPTIONS_ERROR,
+            self::VALUE_MATCH_OPERATION_MISSING_RULE_ERROR,
+            self::VALUE_MATCH_OPERATION_UNKNOWN_RULE_ERROR,
+            self::VALUE_MATCH_OPERATION_UNSUPPORTED_VERSION_ERROR,
+            self::VALUE_MATCH_PRECONDITION_FAILED,
+            self::VALUE_MATCH_RUNTIME_ERROR,
+            self::VALUE_MATCH_SERVICE_ERROR,
+            self::VALUE_MATCH_SERVICE_TIMED_OUT,
+            self::VALUE_MATCH_SERVICE_UNAVAILABLE_ERROR,
+            self::VALUE_MAXIMUM_CCEMAILS_EXCEEDED,
+            self::VALUE_MAXIMUM_DASHBOARD_COMPONENTS_EXCEEDED,
+            self::VALUE_MAXIMUM_HIERARCHY_CHILDREN_REACHED,
+            self::VALUE_MAXIMUM_HIERARCHY_LEVELS_REACHED,
+            self::VALUE_MAXIMUM_HIERARCHY_TREE_SIZE_REACHED,
+            self::VALUE_MAXIMUM_SIZE_OF_ATTACHMENT,
+            self::VALUE_MAXIMUM_SIZE_OF_DOCUMENT,
+            self::VALUE_MAX_ACTIONS_PER_RULE_EXCEEDED,
+            self::VALUE_MAX_ACTIVE_RULES_EXCEEDED,
+            self::VALUE_MAX_APPROVAL_STEPS_EXCEEDED,
+            self::VALUE_MAX_DEPTH_IN_FLOW_EXECUTION,
+            self::VALUE_MAX_FORMULAS_PER_RULE_EXCEEDED,
+            self::VALUE_MAX_LIMIT_EXCEEDED,
+            self::VALUE_MAX_RULES_EXCEEDED,
+            self::VALUE_MAX_RULE_ENTRIES_EXCEEDED,
+            self::VALUE_MAX_TASK_DESCRIPTION_EXCEEEDED,
+            self::VALUE_MAX_TM_RULES_EXCEEDED,
+            self::VALUE_MAX_TM_RULE_ITEMS_EXCEEDED,
+            self::VALUE_MAX_TRIGGERS_EXCEEDED,
+            self::VALUE_MERGE_FAILED,
+            self::VALUE_METADATA_FIELD_UPDATE_ERROR,
+            self::VALUE_MISSING_ARGUMENT,
+            self::VALUE_MISSING_RECORD,
+            self::VALUE_MIXED_DML_OPERATION,
+            self::VALUE_NONUNIQUE_SHIPPING_ADDRESS,
+            self::VALUE_NO_ACCESS_TOKEN,
+            self::VALUE_NO_ACCESS_TOKEN_FROM_REFRESH,
+            self::VALUE_NO_APPLICABLE_PROCESS,
+            self::VALUE_NO_ATTACHMENT_PERMISSION,
+            self::VALUE_NO_AUTH_PROVIDER,
+            self::VALUE_NO_INACTIVE_DIVISION_MEMBERS,
+            self::VALUE_NO_MASS_MAIL_PERMISSION,
+            self::VALUE_NO_PARTNER_PERMISSION,
+            self::VALUE_NO_REFRESH_TOKEN,
+            self::VALUE_NO_SUCH_USER_EXISTS,
+            self::VALUE_NO_TOKEN_ENDPOINT,
+            self::VALUE_NUMBER_OUTSIDE_VALID_RANGE,
+            self::VALUE_NUM_HISTORY_FIELDS_BY_SOBJECT_EXCEEDED,
+            self::VALUE_OPERATION_ENQUEUED,
+            self::VALUE_OPTED_OUT_OF_MASS_MAIL,
+            self::VALUE_OP_WITH_INVALID_USER_TYPE_EXCEPTION,
+            self::VALUE_ORCHESTRATION_INVALID,
+            self::VALUE_ORDER_MANAGEMENT_ACTION_NOT_ALLOWED,
+            self::VALUE_ORDER_MANAGEMENT_RECORD_EXISTS,
+            self::VALUE_ORDER_MANAGEMENT_RECORD_NOT_FOUND,
+            self::VALUE_PACKAGE_DISABLED,
+            self::VALUE_PACKAGE_LICENSE_REQUIRED,
+            self::VALUE_PACKAGING_API_INSTALL_FAILED,
+            self::VALUE_PACKAGING_API_UNINSTALL_FAILED,
+            self::VALUE_PALI_INVALID_ACTION_ID,
+            self::VALUE_PALI_INVALID_ACTION_NAME,
+            self::VALUE_PALI_INVALID_ACTION_TYPE,
+            self::VALUE_PAL_INVALID_ASSISTANT_RECOMMENDATION_TYPE_ID,
+            self::VALUE_PAL_INVALID_ENTITY_ID,
+            self::VALUE_PAL_INVALID_FLEXIPAGE_ID,
+            self::VALUE_PAL_INVALID_LAYOUT_ID,
+            self::VALUE_PAL_INVALID_PARAMETERS,
+            self::VALUE_PAYLOAD_SIZE_EXCEEDED,
+            self::VALUE_PA_API_EXCEPTION,
+            self::VALUE_PA_AXIS_FAULT,
+            self::VALUE_PA_INVALID_ID_EXCEPTION,
+            self::VALUE_PA_NO_ACCESS_EXCEPTION,
+            self::VALUE_PA_NO_DATA_FOUND_EXCEPTION,
+            self::VALUE_PA_URI_SYNTAX_EXCEPTION,
+            self::VALUE_PA_VISIBLE_ACTIONS_FILTER_ORDERING_EXCEPTION,
+            self::VALUE_PLATFORM_EVENT_ENCRYPTION_ERROR,
+            self::VALUE_PLATFORM_EVENT_PUBLISHING_UNAVAILABLE,
+            self::VALUE_PLATFORM_EVENT_PUBLISH_FAILED,
+            self::VALUE_PORTAL_NO_ACCESS,
+            self::VALUE_PORTAL_USER_ALREADY_EXISTS_FOR_CONTACT,
+            self::VALUE_PORTAL_USER_CREATION_RESTRICTED_WITH_ENCRYPTION,
+            self::VALUE_PRICE_NOT_FOUND,
+            self::VALUE_PRIVATE_CONTACT_ON_ASSET,
+            self::VALUE_PROCESSING_HALTED,
+            self::VALUE_QA_INVALID_CREATE_FEED_ITEM,
+            self::VALUE_QA_INVALID_SUCCESS_MESSAGE,
+            self::VALUE_QUERY_TIMEOUT,
+            self::VALUE_QUICK_ACTION_LIST_ITEM_NOT_ALLOWED,
+            self::VALUE_QUICK_ACTION_LIST_NOT_ALLOWED,
+            self::VALUE_RECORD_IN_USE_BY_WORKFLOW,
+            self::VALUE_RELATED_ENTITY_FILTER_VALIDATION_EXCEPTION,
+            self::VALUE_REL_FIELD_BAD_ACCESSIBILITY,
+            self::VALUE_REPUTATION_MINIMUM_NUMBER_NOT_REACHED,
+            self::VALUE_REQUEST_RUNNING_TOO_LONG,
+            self::VALUE_REQUIRED_FEATURE_MISSING,
+            self::VALUE_REQUIRED_FIELD_MISSING,
+            self::VALUE_REQUIRE_CONNECTED_APP_SCS,
+            self::VALUE_REQUIRE_CONNECTED_APP_SESSION_SCS,
+            self::VALUE_REQUIRE_RUNAS_USER,
+            self::VALUE_RETRIEVE_EXCHANGE_ATTACHMENT_FAILED,
+            self::VALUE_RETRIEVE_EXCHANGE_EMAIL_FAILED,
+            self::VALUE_RETRIEVE_EXCHANGE_EVENT_FAILED,
+            self::VALUE_RETRIEVE_GOOGLE_EMAIL_FAILED,
+            self::VALUE_RETRIEVE_GOOGLE_EVENT_FAILED,
+            self::VALUE_RETRIEVE_USER_CONFIG_ERROR,
+            self::VALUE_SALESFORCE_INBOX_TRANSPORT_CONNECTION_ERROR,
+            self::VALUE_SALESFORCE_INBOX_TRANSPORT_INVALID_INPUT_ERROR,
+            self::VALUE_SALESFORCE_INBOX_TRANSPORT_TOKEN_ERROR,
+            self::VALUE_SALESFORCE_INBOX_TRANSPORT_UNKNOWN_ERROR,
+            self::VALUE_SELF_REFERENCE_FROM_FLOW,
+            self::VALUE_SELF_REFERENCE_FROM_TRIGGER,
+            self::VALUE_SHARE_NEEDED_FOR_CHILD_OWNER,
+            self::VALUE_SINGLE_EMAIL_LIMIT_EXCEEDED,
+            self::VALUE_SOCIAL_ACCOUNT_NOT_FOUND,
+            self::VALUE_SOCIAL_ACTION_INVALID,
+            self::VALUE_SOCIAL_PERSONA_NOT_FOUND,
+            self::VALUE_SOCIAL_POST_INVALID,
+            self::VALUE_SOCIAL_POST_NOT_FOUND,
+            self::VALUE_STANDARD_PRICE_NOT_DEFINED,
+            self::VALUE_STORAGE_LIMIT_EXCEEDED,
+            self::VALUE_STRING_TOO_LONG,
+            self::VALUE_SUBDOMAIN_IN_USE,
+            self::VALUE_TABSET_LIMIT_EXCEEDED,
+            self::VALUE_TEMPLATE_NOT_ACTIVE,
+            self::VALUE_TEMPLATE_NOT_FOUND,
+            self::VALUE_TERMS_OF_SERVICE_UNREAD,
+            self::VALUE_TERRITORY_REALIGN_IN_PROGRESS,
+            self::VALUE_TEXT_DATA_OUTSIDE_SUPPORTED_CHARSET,
+            self::VALUE_TOO_MANY_APEX_REQUESTS,
+            self::VALUE_TOO_MANY_ENUM_VALUE,
+            self::VALUE_TOO_MANY_JOBS,
+            self::VALUE_TOO_MANY_POSSIBLE_USERS_EXIST,
+            self::VALUE_TRANSFER_REQUIRES_READ,
+            self::VALUE_UNABLE_TO_LOCK_ROW,
+            self::VALUE_UNAVAILABLE_RECORDTYPE_EXCEPTION,
+            self::VALUE_UNAVAILABLE_REF,
+            self::VALUE_UNDELETE_FAILED,
+            self::VALUE_UNKNOWN_EXCEPTION,
+            self::VALUE_UNKNOWN_TOKEN_ERROR,
+            self::VALUE_UNSAFE_HTML_CONTENT,
+            self::VALUE_UNSPECIFIED_EMAIL_ADDRESS,
+            self::VALUE_UNSUPPORTED_APEX_TRIGGER_OPERATON,
+            self::VALUE_UNSUPPORTED_SOCIAL_PROVIDER,
+            self::VALUE_UNVERIFIED_SENDER_ADDRESS,
+            self::VALUE_UPDATE_GOOGLE_EMAIL_LABEL_FAILED,
+            self::VALUE_USER_OWNS_PORTAL_ACCOUNT_EXCEPTION,
+            self::VALUE_USER_WITH_APEX_SHARES_EXCEPTION,
+            self::VALUE_VF_COMPILE_ERROR,
+            self::VALUE_WEBLINK_SIZE_LIMIT_EXCEEDED,
+            self::VALUE_WEBLINK_URL_INVALID,
+            self::VALUE_WRONG_CONTROLLER_TYPE,
+            self::VALUE_XCLEAN_DJ_MATCH_IGNORABLE_ERROR,
+            self::VALUE_XCLEAN_DJ_MATCH_INTERNAL_DJ_ERROR,
+            self::VALUE_XCLEAN_DJ_MATCH_NON_RETRIABLE_ERROR,
+            self::VALUE_XCLEAN_DJ_MATCH_RETRIABLE_ERROR,
+            self::VALUE_XCLEAN_DJ_MATCH_UNKNOWN_ERROR,
+            self::VALUE_XCLEAN_UNEXPECTED_ERROR,
+        );
+    }
+    /**
+     * Method returning the class name
+     * @return string __CLASS__
+     */
+    public function __toString()
+    {
+        return __CLASS__;
+    }
+}
